@@ -177,6 +177,12 @@
         margin-bottom: 50px;
     }
 
+    #cutting-video {
+        max-width: 80%;
+        max-height: 600px;
+        margin-top: 15px;
+    }
+
 /* Footer */
 
     footer {
