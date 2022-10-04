@@ -16,28 +16,23 @@ body {
     background-color: #55BCC9;
 }
 
-/* Headings, Logo & HR */
-
+/* Headings, Paragraphs, Logo & HR */
 
 h1, h2 {
     color: #FC4445;
-    margin: 3px;
+    margin: 30px 3px 30px 3px;
 }
 
 h3, h4 {
     color: white;
     font-family: Tahoma, Verdana, sans-serif;
     font-weight: 300;
-    margin: 6px;
+    margin: 30px 6px 15px 6px;
 }
 
-hr {
-    border-bottom: 1px solid silver;
-    width: 100%;
-    margin: 6px;
+p {
+    margin: 15px 9px 15px 9px;
 }
-
-
 
 #logo {
     float: left;
@@ -45,6 +40,16 @@ hr {
     padding: 15px 15px 15px 30px;
 }
 
+hr {
+    border-bottom: 1px solid grey;
+    width: 100%;
+}
+
+hr.bold {
+    border-bottom: 6px solid purple;
+    width: 100%;
+    align: center;
+}
 
 /* Nav Menu Links */
 
@@ -121,3 +126,7 @@ hr {
 
 /* Footer */
 
+footer h3 {
+    font-weight: bold;
+    font-size: larger;
+}
