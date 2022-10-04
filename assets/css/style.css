@@ -1,3 +1,59 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+/* Import statement for Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Open+Sans:wght@300&display=swap');
+
+/* Wild Card to remove: margin, padding and border */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #55BCC9;
+}
+
+/* Headings, Logo & HR */
+
+
+h1, h2 {
+    color: #FC4445;
+    margin: 3px;
+}
+
+h3, h4 {
+    color: white;
+    font-family: Tahoma, Verdana, sans-serif;
+    margin: 6px;
+}
+
+hr {
+    border-bottom: 1px solid silver;
+    width: 100%;
+    margin: 6px;
+}
+
+footer {
+    color: #97CAEF;
+}
+
+
+/* Nav Links */
+
+
+
+/* Hero Image & Cover Text */
+
+
+
+/* Life Hack Examples */
+
+
+/* Reasons to Sign Up */
+
+
+/* About Us */
+
+
+/* Footer */
