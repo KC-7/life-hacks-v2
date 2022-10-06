@@ -12,11 +12,21 @@
 
 /* Main Structure - Body, Headings, Paragraphs, Logo & HR */
 
+    #nav-bar {
+        position: fixed;       
+        width: 100%;
+        height: 100px;
+        top: 0;
+        background-color: #97CAEF;
+        z-index: +10;
+    }
+
     body {
         font-family: 'Noto Sans', sans-serif;
         color: black;
         font-weight: 300;
         background-color: #55BCC9;
+        margin-top: 100px;
     }
 
     h1, h2 {
@@ -35,6 +45,7 @@
 
     p {
         margin: 15px 9px 15px 9px;
+        font-size: large;
     }
 
     #logo {
@@ -135,6 +146,19 @@
         text-align: center;
         line-height: 30px;
         margin-bottom: 50px;
+    }
+
+    #hack-examples div ul {
+        list-style: none;
+        font-size: large;
+    }
+
+    #hack-examples div ul li {
+        padding: 15px 0;
+    }
+
+    .example-images {
+        max-width: 50%;
     }
 
 /* Reasons to Sign Up */
