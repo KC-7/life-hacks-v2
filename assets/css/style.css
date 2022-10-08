@@ -10,16 +10,8 @@
         border: none;
     }
 
-/* Main Structure - Body, Headings, Paragraphs, Logo & HR */
 
-    #nav-bar {
-        position: fixed;       
-        width: 100%;
-        height: 100px;
-        top: 0;
-        background-color: #97CAEF;
-        z-index: +10;
-    }
+/* Main Structure - Body, Headings, Paragraphs, Logo & HR */
 
     body {
         font-family: 'Noto Sans', sans-serif;
@@ -64,12 +56,22 @@
         width: 100%;
     }
 
+
 /* Nav Menu Links */
+
+    #nav-bar {
+        position: fixed;       
+        width: 100%;
+        height: 100px;
+        top: 0;
+        background-color: purple;
+        z-index: +10;
+    }
 
     #menu {
         font-size: 125%;
         line-height: 111px;
-        color: white;
+        color: whitesmoke;
     }
 
     #menu li {
@@ -84,7 +86,7 @@
     }
 
     #menu a:hover {
-        border: 2px solid purple;
+        border: 2px solid #55BCC9;
         border-top-left-radius: 20%;
         border-bottom-right-radius: 20%;
         padding: 5px;
@@ -158,6 +160,10 @@
         padding: 15px 0;
     }
 
+    #hack-examples div:hover {
+        font-weight: bold;
+    }
+
     .example-images {
         max-width: 50%;
     }
@@ -182,6 +188,10 @@
         margin-bottom: 50px;
     }
 
+    #why-examples div:hover {
+        font-weight: bold;
+    }
+
 /* About Us */
 
     #about-examples {
@@ -202,17 +212,21 @@
         margin-bottom: 50px;
     }
 
+            /* Not currently in use as there is no text in the paragraph */
+            #about-examples div:hover {
+                font-weight: bold;
+            }
+
     #cutting-video {
         max-width: 80%;
         max-height: 600px;
         margin-top: 15px;
     }
 
-    /* Sign Up */
+/* Sign Up */
 
     #sign-up {
         width: 100%;
-        left: 10%;
         font-weight: bold;
     }
 
@@ -223,6 +237,7 @@
         background-color: #97CAEF;
         border-radius: 15%;
         padding: 50px;
+        text-align: center;
     }
 
     .text-input {
@@ -231,12 +246,30 @@
         width: 100%;
         margin: 10px 30px 20px 30px;        
         border-radius: 5%;
-        border: 2px solid #55BCC9;
+        border: 3px solid #55BCC9;
     }
 
     .text-input:hover {
         border-color: purple;
     }
+
+    .sign-up-button {
+        height: 200px;
+        width: 200px;
+        margin-top: 30px;
+        border-radius: 50%;
+        font-size: 100%;
+        background-color: purple;
+        color: whitesmoke;
+    }
+    
+    .sign-up-button:hover {
+        background-color: rgba(255, 0, 0, 0.75);
+        color: whitesmoke;
+        font-weight: bolder;
+        font-size: 125%;
+    }
+
 
 /* Footer */
 
