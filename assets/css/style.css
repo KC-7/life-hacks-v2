@@ -100,6 +100,7 @@
                 padding: 5px;
             }
 
+            
 /* Hero Image & Cover Text */
 
     #hero-outer {
@@ -130,6 +131,7 @@
             transform: scale(1);
         }
     }
+
 
 /* Life Hack Examples */
 
@@ -168,6 +170,7 @@
         max-width: 50%;
     }
 
+
 /* Reasons to Sign Up */
 
     #why-examples {
@@ -191,6 +194,7 @@
     #why-examples div:hover {
         font-weight: bold;
     }
+
 
 /* About Us */
 
@@ -222,6 +226,7 @@
         max-height: 600px;
         margin-top: 15px;
     }
+
 
 /* Sign Up */
 
