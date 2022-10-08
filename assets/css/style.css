@@ -212,16 +212,30 @@
 
     #sign-up {
         width: 100%;
-       
+        left: 10%;
+        font-weight: bold;
     }
 
     #sign-up-form {
         width: 90%;
-        margin: 0 5%;
+        margin-left: 2.5%;
         border: 20px solid #55BCC9;
         background-color: #97CAEF;
         border-radius: 15%;
-        padding: 10px 10px 20px 10px;
+        padding: 50px;
+    }
+
+    .text-input {
+        background-color: whitesmoke;
+        height: 30px;
+        width: 100%;
+        margin: 10px 30px 20px 30px;        
+        border-radius: 5%;
+        border: 2px solid #55BCC9;
+    }
+
+    .text-input:hover {
+        border-color: purple;
     }
 
 /* Footer */
