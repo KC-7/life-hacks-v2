@@ -90,12 +90,13 @@
         padding: 5px;
     }
 
-    .active {
-        border: 2px solid #97CAEF;
-        border-top-left-radius: 20%;
-        border-bottom-right-radius: 20%;
-        padding: 5px;
-    }
+            /* Not currently in use */
+            .active {
+                border: 2px solid #97CAEF;
+                border-top-left-radius: 20%;
+                border-bottom-right-radius: 20%;
+                padding: 5px;
+            }
 
 /* Hero Image & Cover Text */
 
