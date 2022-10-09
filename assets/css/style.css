@@ -365,6 +365,23 @@
         font-size: smaller;
    }
 
+   #confirmation-text div {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background-color: purple;
+        margin: auto;
+        text-align: center; 
+        vertical-align: middle;
+        line-height: 250px;
+   }
+
+   #confirmation-text div a {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
    #confirmation-text a {
         text-decoration: none;
         font-weight: bolder;
