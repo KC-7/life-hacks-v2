@@ -368,8 +368,9 @@
    #confirmation-text div {
         width: 250px;
         height: 250px;
+        border: 5px solid purple;
         border-radius: 50%;
-        background-color: purple;
+        background-color: #55BCC9;
         margin: auto;
         text-align: center; 
         vertical-align: middle;
@@ -380,6 +381,7 @@
     line-height: 1.5;
     display: inline-block;
     vertical-align: middle;
+    color: purple;
   }
 
    #confirmation-text a {
