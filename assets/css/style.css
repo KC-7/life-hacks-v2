@@ -118,7 +118,7 @@
         
         /* Animates zoom effect on hero image */
         animation-name: hero-zoom;
-        animation-duration: 2s;
+        animation-duration: 1s;
         animation-fill-mode: backwards;
     }
 
@@ -126,7 +126,7 @@
 
     @keyframes hero-zoom {
         from{
-            transform: scale(10);
+            transform: scale(20);
         }
         to{
             transform: scale(1);
@@ -387,7 +387,7 @@
         line-height: 250px;
    }
 
-   #confirmation-text div:hover {
+   #confirmation-return:hover {
         font-weight: bolder;
     }
 
