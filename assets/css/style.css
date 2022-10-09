@@ -339,8 +339,8 @@
    #confirmation-text {
         width: 75%;
         height: 75%;
-        background-color: rgba(50, 50, 50, 0.5);
-        border: 5px solid purple;
+        background-color: rgba(50, 50, 50, 0.9);
+        border: 5px solid #800080;
         border-radius: 10%;
         position: absolute;
         top: 50%;
@@ -348,7 +348,27 @@
         transform: translate(-50%, -50%);
         text-align: center;
         padding: 50px;
+        color: whitesmoke;
+        word-spacing: 2px;
+   }
 
+   #confirmation-text h2 {
+        color: #55BCC9;
+    }
+
+   #confirmation-text h3 {
+        color: whitesmoke;
+   }
+
+   #confirmation-text p {
+        color: silver;
+        font-size: smaller;
+   }
+
+   #confirmation-text a {
+        text-decoration: none;
+        font-weight: bolder;
+        color: #55BCC9;
    }
 
    #confirmation-footer {
