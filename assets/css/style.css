@@ -114,6 +114,7 @@
         width: 100%;
         height: 750px;
         background: url(../images/palm-trees.png) no-repeat bottom;
+        background-attachment: fixed;
         
         /* Animates zoom effect on hero image */
         animation-name: hero-zoom;
@@ -286,8 +287,8 @@
         padding-bottom: 25px;
         left: 0;
         bottom: 0;
-        position: fixed;
         width: 100%;
+        z-index:10;
     }
 
     footer a {
@@ -323,7 +324,7 @@
 
    #confirmation-outer {
         width: 100%;
-        height: 750px;
+        height: 777px;
         position: relative;
         overflow: hidden;
    }
@@ -332,12 +333,12 @@
         background: url("../images/palm-trees.png") no-repeat bottom;
         background-attachment: fixed;
         width: 100%;
-        height: 750px;
+        height: 777px;
    }
 
    #confirmation-text {
-        width: 90%;
-        height: 90%;
+        width: 75%;
+        height: 75%;
         background-color: rgba(50, 50, 50, 0.5);
         border: 5px solid purple;
         border-radius: 10%;
@@ -346,5 +347,18 @@
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
+        padding: 50px;
 
+   }
+
+   #confirmation-footer {
+        height: 150px;
+        text-align: center;
+        background-color: purple;
+        padding-bottom: 25px;
+        left: 0;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        z-index:10;
    }
