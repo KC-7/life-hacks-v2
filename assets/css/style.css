@@ -168,7 +168,11 @@
     }
 
     .example-images {
-        max-width: 50%;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid purple;
     }
 
 
@@ -190,6 +194,11 @@
         text-align: center;
         line-height: 30px;
         margin-bottom: 50px;
+    }
+
+    #why-examples a {
+        text-decoration: none;
+        font-weight: bold;
     }
 
     #why-examples div:hover {
@@ -365,24 +374,29 @@
         font-size: smaller;
    }
 
-   #confirmation-text div {
+   #confirmation-return {
         width: 250px;
         height: 250px;
         border: 5px solid purple;
         border-radius: 50%;
         background-color: #55BCC9;
         margin: auto;
+        margin-top: 50px;
         text-align: center; 
         vertical-align: middle;
         line-height: 250px;
    }
 
+   #confirmation-text div:hover {
+        font-weight: bolder;
+    }
+
    #confirmation-text div a {
-    line-height: 1.5;
-    display: inline-block;
-    vertical-align: middle;
-    color: purple;
-  }
+        line-height: 1.5;
+        display: inline-block;
+        vertical-align: middle;
+        color: purple;
+     }
 
    #confirmation-text a {
         text-decoration: none;
