@@ -287,7 +287,7 @@
     }
 
 
-/* Sign Up */
+/* Sign Up Form */
 
     #sign-up {
         width: 100%;
@@ -334,6 +334,10 @@
         font-weight: bolder;
         font-size: 125%;
     }
+
+    input[type="radio"] {
+        margin: 2px 0 0 2px;
+      }
 
 
 /* Footer */
@@ -543,7 +547,7 @@
             width: 100%;
         }
         .text-input {
-            width: 40%;
+            width: 50%;
         }
         #confirmation-outer {
             height: 1100px;
