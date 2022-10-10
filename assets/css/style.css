@@ -167,18 +167,18 @@
 
    #hero-link a {
         text-decoration: none;
-        color: black;
+        color: whitesmoke; 
    }
 
    #hero-link:hover {
         background-color: rgba(255, 0, 0, 0.75);
-        color: whitesmoke;
         font-size: 125%;
         border: 5px solid black;
     }
 
     #hero-link a:hover {
         font-weight: bold;
+        color: whitesmoke;
     }
 
 
