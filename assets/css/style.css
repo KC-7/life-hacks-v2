@@ -415,3 +415,23 @@
         width: 100%;
         z-index:10;
    }
+
+/* Media Queries */
+
+/* For larger to medium screens size from 1250px wide and down */
+
+    @media screen and (max-width: 1250px) {
+        #
+    }
+
+/* For medium screens from 1000px wide and down */
+
+    @media screen and (max-width: 1000px) {
+        #
+    }
+
+/* For small screens - 750px wide and down */
+
+    @media screen and (max-width: 750px) {
+        #
+    }
