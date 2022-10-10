@@ -133,6 +133,54 @@
         }
     }
 
+    #hero-text {
+        width: 350px;
+        height: 350px;
+        background-color: rgba(50, 50, 50, 0.9);
+        border: 5px solid #800080;
+        border-radius: 10%;
+        position: absolute;
+        top: 100px;
+        left: 200px;
+        text-align: center;
+        padding: 50px;
+        color: whitesmoke;
+        word-spacing: 2px;
+   }
+
+   #hero-text h2 {
+        color: #55BCC9;
+    }
+
+   #hero-link {
+        width: 150px;
+        height: 150px;
+        border: 5px solid purple;
+        border-radius: 50%;
+        background-color: #55BCC9;
+        margin: auto;
+        margin-top: 50px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 150px; /*Line height is equal to height to center the text in the div */
+   }
+
+   #hero-link a {
+        text-decoration: none;
+        color: black;
+   }
+
+   #hero-link:hover {
+        background-color: rgba(255, 0, 0, 0.75);
+        color: whitesmoke;
+        font-size: 125%;
+        border: 5px solid black;
+    }
+
+    #hero-link a:hover {
+        font-weight: bold;
+    }
+
 
 /* Life Hack Examples */
 
