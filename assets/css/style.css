@@ -53,7 +53,7 @@
 
 /* Nav Menu Links */
 
-    #logo {
+    .logo {
         float: left;
         width: 200px;
         padding: 15px 15px 15px 30px;
@@ -485,6 +485,13 @@
         #why-examples div {
             width: 50%;
         }
+        footer div {
+            width: 100%;
+            font-size: 75%;
+            height: 150px;
+            padding: 0;
+            background-color: purple;
+        }
     }
 
     /* For medium screens - 680px wide and down */
@@ -493,7 +500,7 @@
         #menu {
             font-size: 100%;
         }
-        #logo {
+        .logo {
             max-width: 150px;
             padding: 25px;
         }
@@ -501,6 +508,9 @@
             top: 50px;
             left: 100px;
             width: 250px;
+        }
+        #confirmation-outer {
+            height: 1200px;
         }
     }
 
@@ -537,10 +547,10 @@
             margin: 0 30px 0 40px;
         }
         #hero-text {
-            top: 100px;
-            left: 30px;
-            width: 200px;
-            height: 400px;
+            top: 30px;
+            left: 15px;
+            width: 160px;
+            height: 450px;
         }
     }
 
@@ -551,16 +561,11 @@
             margin: 0 30px 0 60px;
             font-size: 50%;
         }
-        #logo {
+        .logo {
             max-width: 125px;
             padding-top: 30px;
         }
-        #hero-text {
-            top: 30px;
-            left: 15px;
-            width: 160px;
-            height: 450px;
-        }
+        
     }
 
 
