@@ -40,12 +40,6 @@
         font-size: large;
     }
 
-    #logo {
-        float: left;
-        width: 200px;
-        padding: 15px 15px 15px 30px;
-    }
-
     hr {
         border-bottom: 1px solid grey;
         width: 100%;
@@ -59,6 +53,12 @@
 
 /* Nav Menu Links */
 
+    #logo {
+        float: left;
+        width: 200px;
+        padding: 15px 15px 15px 30px;
+    }
+
     #nav-bar {
         position: fixed;       
         width: 100%;
@@ -70,8 +70,9 @@
 
     #menu {
         font-size: 125%;
-        line-height: 111px;
+        vertical-align: middle;
         color: whitesmoke;
+        line-height: 100px;
     }
 
     #menu li {
@@ -92,7 +93,7 @@
         padding: 5px;
     }
 
-            /* Not currently in use */
+            /* Not currently in use. Can be used to highlight active page on sites with multiple pages */
             .active {
                 border: 2px solid #97CAEF;
                 border-top-left-radius: 20%;
@@ -466,20 +467,101 @@
 
 /* Media Queries */
 
-/* For larger to medium screens size from 1250px wide and down */
+    /* For larger to medium screens size from 1250px wide and down */
 
-    @media screen and (max-width: 1250px) {
-        #
+    @media screen and (max-width: 1200px) {
+        
     }
 
-/* For medium screens from 1000px wide and down */
+    /* For mediunm-large screens from 1000px wide and down */
 
-    @media screen and (max-width: 1000px) {
-        #
+    @media screen and (max-width: 1003px) {
+        #menu {
+            line-height: 50px;
+        }
+        #hack-examples div {
+            width: 100%;
+        }
+        #why-examples div {
+            width: 50%;
+        }
     }
 
-/* For small screens - 750px wide and down */
+    /* For medium screens - 680px wide and down */
 
-    @media screen and (max-width: 750px) {
-        #
+    @media screen and (max-width: 680px) {
+        #menu {
+            font-size: 100%;
+        }
+        #logo {
+            max-width: 150px;
+            padding: 25px;
+        }
+        #hero-text {
+            top: 50px;
+            left: 100px;
+            width: 250px;
+        }
     }
+
+    /* For medium-small screens - 580px wide and down */
+
+    @media screen and (max-width: 580px) {
+        #menu {
+            line-height: 16px;
+        }
+        #menu li {
+            margin: 0 30px 0 100px;
+        }
+        #menu a:hover {
+            border: none;
+            padding: 0;
+            font-weight: bold;
+            color: red;
+        }
+        #why-examples div {
+            width: 100%;
+        }
+        #about-examples div {
+            width: 100%;
+        }
+        .text-input {
+            width: 40%;
+        }
+    }
+
+    /* For small screens - 460px wide and down */
+
+    @media screen and (max-width: 460px) {
+        #menu li {
+            margin: 0 30px 0 40px;
+        }
+        #hero-text {
+            top: 100px;
+            left: 30px;
+            width: 200px;
+            height: 400px;
+        }
+    }
+
+    /* For very small screens - 395px wide and down */
+
+    @media screen and (max-width: 395px) {
+        #menu li {
+            margin: 0 30px 0 60px;
+            font-size: 50%;
+        }
+        #logo {
+            max-width: 125px;
+            padding-top: 30px;
+        }
+        #hero-text {
+            top: 30px;
+            left: 15px;
+            width: 160px;
+            height: 450px;
+        }
+    }
+
+
+    /* Menu pops out of header div below 312px */
