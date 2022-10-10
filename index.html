@@ -33,6 +33,7 @@
             <ul id="menu">
                 <!-- Below List Items are in reverse order to accomadate the CCS Float Right Rule -->
                 <li>
+                    <!-- Linking to the hero-outer section as opposed to the index.html will allow the user to get back to the top of the page quicker as it will not reload the page in the browser. Test it yourself by comparing it to the logo in left in nav -->
                     <a href="#hero-outer" aria-label="Sends you back to the top of our Home Page">Back to Top <i class="far fa-arrow-alt-circle-up"></i></a>
                 </li>
                 <li>
@@ -58,15 +59,16 @@
     <section id="hero-outer">
 
         <div id="hero-image">
-            <!-- Hero Image Here -->
+            <!-- Hero Image is Positioned Here -->
         </div>
-
+            <!-- Hero Image Cover Text -->
         <div id="hero-text">
             <h2>
                 Life Changing
                 <br>
                 Life Hacks
             </h2>
+            <!-- Circular hero-link to take you to the sign up page -->
             <div id="hero-link">
                 <a href="#sign-up" aria-label="Sends you to the Sign Up Section">Sign Up Now!</a>
             </div>
@@ -91,7 +93,7 @@
                 <li>Removing stains</li>
                 <li>Cleaning your shower head</li>
             </ul>
-            <img src="assets/images/clean.jpg" alt="Photo of cleaning supplies" class="example-images">
+            <img src="assets/images/clean.jpg" alt="Photo of cleaning supplies" class="example-images"> <!-- The example-images class targets all three images in this, the examples, section -->
         </div>
 
         <div>
@@ -173,7 +175,7 @@
         <div>
             <h3>Tips & Tricks sent straight to your inbox! <i class="fas fa-inbox"></i></h3>
             <hr>
-            <video src="assets/videos/cutting.mp4" autoplay muted loop id="cutting-video" class="about-videos">
+            <video src="assets/videos/cutting.mp4" autoplay muted loop id="cutting-video" class="about-videos"> <!-- The about-videos class targets both videos in this, the about, section -->
             <p>
                 Your web browser doesn't support HTML5 video.
             </p>
@@ -203,6 +205,8 @@
     <section id="sign-up">
         
         <h2>Sign Up Here</h2>
+
+        <!-- Sign Up form will take you to the confirmation page once all of the required data has been entered and sumbitted correctly -->
 
         <form id="sign-up-form" method="GET" action="confirmation.html">
             
