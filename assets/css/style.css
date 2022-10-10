@@ -492,6 +492,16 @@
             padding: 0;
             background-color: purple;
         }
+        #confirmation-footer {
+            height: 300px;
+            position: relative;
+        }
+        #confirmation-outer {
+            height: 1000px;
+        }
+        #confirmation-image{
+            height: 1000px;
+        }
     }
 
     /* For medium screens - 680px wide and down */
@@ -500,7 +510,7 @@
         #menu {
             font-size: 100%;
         }
-        .logo {
+        #header-logo {
             max-width: 150px;
             padding: 25px;
         }
@@ -508,9 +518,6 @@
             top: 50px;
             left: 100px;
             width: 250px;
-        }
-        #confirmation-outer {
-            height: 1200px;
         }
     }
 
@@ -538,6 +545,16 @@
         .text-input {
             width: 40%;
         }
+        #confirmation-outer {
+            height: 1100px;
+        }
+        #confirmation-image{
+            height: 1100px;
+        }
+        #confirmation-text {
+            padding: 25px;
+            height: 90%;
+        }
     }
 
     /* For small screens - 460px wide and down */
@@ -561,12 +578,11 @@
             margin: 0 30px 0 60px;
             font-size: 50%;
         }
-        .logo {
+        #header-logo {
             max-width: 125px;
             padding-top: 30px;
         }
-        
     }
 
 
-    /* Menu pops out of header div below 312px */
+    /* Note, site has styling issues below 360px wide */
