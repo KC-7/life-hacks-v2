@@ -114,7 +114,7 @@
     #hero-image {
         width: 100%;
         height: 750px;
-        background: url(../images/palm-trees.png) no-repeat bottom;
+        background: url(../images/palm-trees.webp) no-repeat bottom;
         background-attachment: fixed;
         
         /* Animates zoom effect on hero image */
@@ -336,7 +336,7 @@
     }
 
     input[type="radio"] {
-        margin: 2px 0 0 2px;
+        margin: 0 15px 0 2px;
       }
 
 
@@ -392,7 +392,7 @@
    }
 
    #confirmation-image {
-        background: url("../images/palm-trees.png") no-repeat bottom;
+        background: url("../images/palm-trees.webp") no-repeat bottom;
         background-attachment: fixed;
         width: 100%;
         height: 777px;
