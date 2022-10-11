@@ -473,7 +473,7 @@
 
     /* Note: Site designed on large screen width. No additional changes required for larger screens. */
 
-    /* For mediunm-large screens from 1000px wide and down */
+    /* For mediunm-large screens from 1003px wide and down */
 
     @media screen and (max-width: 1003px) {
         #menu {
