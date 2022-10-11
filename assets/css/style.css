@@ -168,7 +168,7 @@
 
    #hero-link a {
         text-decoration: none;
-        color: whitesmoke; 
+        color: black; 
    }
 
    #hero-link:hover {
@@ -471,11 +471,7 @@
 
 /* Media Queries */
 
-    /* For larger to medium screens size from 1250px wide and down */
-
-    @media screen and (max-width: 1200px) {
-        
-    }
+    /* Note: Site designed on large screen width. No additional changes required. */
 
     /* For mediunm-large screens from 1000px wide and down */
 
