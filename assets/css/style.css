@@ -53,7 +53,7 @@
 
 /* Nav Menu Links */
 
-    .logo {
+    #header-logo {
         float: left;
         width: 200px;
         padding: 15px 15px 15px 30px;
@@ -356,7 +356,7 @@
     footer a {
         text-decoration: none;
         color: #55BCC9;
-        padding: 12px 6px 12px 6px;
+        padding: 10px 25px;
     }
 
     footer div {
@@ -375,7 +375,6 @@
         display: inline;
         color: inherit;
         text-decoration: none;
-        word-spacing: 50px;
     }
 
     footer div ul li:hover {
