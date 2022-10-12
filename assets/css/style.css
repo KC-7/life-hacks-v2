@@ -356,6 +356,7 @@
     footer a {
         text-decoration: none;
         color: #55BCC9;
+        padding: 12px 6px 12px 6px;
     }
 
     footer div {
@@ -543,7 +544,7 @@
             width: 100%;
         }
         .text-input {
-            width: 50%;
+            width: 90%;
         }
         #confirmation-outer {
             height: 1100px;
@@ -571,7 +572,7 @@
         }
     }
 
-    /* For very small screens - 395px wide and down */
+    /* For extra small screens - 395px wide and down */
 
     @media screen and (max-width: 395px) {
         #menu li {
@@ -582,7 +583,62 @@
             max-width: 125px;
             padding-top: 30px;
         }
+        footer div ul li {
+            font-size: 200%;
+        }
+    }
+
+    /* For extra extra small screens - 350px wide and down */
+
+    @media screen and (max-width: 350px) {
+        #menu li {
+            margin: 0 30px 0 50px;
+            font-size: 40%;
+        }
+        #header-logo {
+            max-width: 100px;
+            padding-top: 35px;
+        }
+        footer div ul li {
+            font-size: 150%;
+        }
+        #hero-text {
+            top: 50px;
+            left: 10px;
+            padding: 5px;
+            height: 350px;
+        }
+        #hero-text h2 {
+            font-size: 125%;
+        }
+        #confirmation-text h2 {
+            font-size: 150%;
+        }
+        #confirmation-text div a {
+            color: whitesmoke;
+        }
+        #confirmation-return {
+            border: none;
+            background-color: transparent;
+            width: 200px;
+            height: 150px;
+            line-height: 150px;
+        }
+        #confirmation-logo {
+            width: 150px;
+        }
+    }
+
+    /* For extra extra extra small screens (such as new Galaxy Fold when folded) - 300px wide and down */
+
+    @media screen and (max-width: 300px) {
+        #menu li {
+            margin: 0 30px 0 35px;
+        }
+        footer div ul li:hover {
+            font-size: 165%;
+        }
     }
 
 
-    /* Note, site has styling issues below 360px wide */
+    /* Note, site has been styled to respond to devices with a screen width as low as 280 px wide, like the Galaxy Fold when folded, however it was design for use on larger devices */
