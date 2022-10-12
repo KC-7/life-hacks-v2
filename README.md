@@ -125,14 +125,21 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 <h3>Content</h3>
 
-- XXXXX
+- This site was developed using information learned from the Code Institute alongisde other online resources such as W3Schooles. 
 
-- XXXXX
+- The code used to annimate the hero page was learned from Code Insitute's Love Running Project although the values are different to suit the Life Hax website. 
+
+- The code for the Favicon, the picture in the browser tab, was learned from W3Schools.
 
 <br>
 <h3>Media</h3>
 
-- XXXXX
+- Both of the videos on the homepage were sourced from <a href="https://www.rawpixel.com/public-domain" target="_blank" rel="noopener" aria-label="Link to Pexel's Home Page (opens in new tab)">Pexel</a> and are both are available for use in the Public Domain. Both video give credit to the content uploader in the index.html file. 
 
-- XXXXX
+- All of the images were sourced from <a href="https://www.rawpixel.com/public-domain" target="_blank" rel="noopener" aria-label="Link to RawPixel's Public Domain Content (opens in new tab)">RawPixel</a> and are available for use in the Public Domain.
 
+- The custom site logo was created using <a href="https://www.shopify.com/tools/logo-maker" target="_blank" rel="noopener" aria-label="Link to Shopify's Logo Maker (opens in new tab)">Shopify's Free Logo Maker</a>.
+
+- XXXXXXXXXXXXXXXXXXXXXXXXX Google Fonts https://fonts.google.com/
+
+- XXXXXXXXXXXXXXXXXXXXXXXXX Font Awesome - Free V5 Icons https://fontawesome.com/v5/search?o=r&m=free
