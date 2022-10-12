@@ -119,17 +119,19 @@
         background: url(../images/palm-trees.webp) no-repeat bottom;
         background-attachment: fixed;
         
+        /* Below animation effect learned from Code Institute's Love Running Project, values are different */
+
         /* Animates zoom effect on hero image */
         animation-name: hero-zoom;
-        animation-duration: 1s;
-        animation-fill-mode: backwards;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
     }
 
     /* Creates the level of zoom for the hero image */
 
     @keyframes hero-zoom {
         from{
-            transform: scale(20);
+            transform: scale(3);
         }
         to{
             transform: scale(1);
