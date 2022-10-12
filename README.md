@@ -1,108 +1,138 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![logo](../life-hacks-v2/assets/images/logo_transparent_cropped.webp)
 
-Welcome Kieran Collins,
+<h1>Life Hax Website</h1>  
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This website is for an online life hacks company called, Life Hax. Life Hax are currently offering free sign up to new members. Membership gives you access to their mailing list and mobile app. All users will receive access to content designed to save them time and money. This site is mainly targeted at male and female users between the ages of 18 to 60 years old. Once the website has built up a user base, they will add advertisments to generate site revenue. Existing members will remain ad free however new members who do not which to see ads will need to sign up for a paid membership. The site will aim to provide tailored content for users based on their interests as the site frows. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<br>
+<h2>Features</h2>
+<hr>
+<br>
+<h3>Navigation</h3>
 
-## Gitpod Reminders
+- The nav bar is located at the top of the screen and shows the site logo on the left hand side and the nav menu on the right hand side. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- The nav menu includes 6 links which navigate to different sections of the main page. The links in the nav bar on the home page send you directly to the section id to avoid reloading the page. The links on the confirmation page have been updated to send you back to the main page. The home page has a link to send you to the top of the page while the confirmation page has an additional link to send you back to the home page. 
 
-`python3 -m http.server`
+- The nav bar menu has responive styling to work on devices with screen widths as low as 280px. The allow this, multiple media queires have been added so that the menu appears aesthetically pleasing on a variety of different screen sizes. On larger screens, it shows all 6 items on 1 row, then it goes to 2 lines per row and then its goes to 1 items per row. 
 
-A blue button should appear to click: _Make Public_,
+- The nav bar has a decorative border around the items when the user hovers over it. 
 
-Another blue button should appear to click: _Open Browser_.
+<br>
+<h3>Hero Image Section</h3>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- The Hero Cover Image is displayed at the top of the page. An image with a transparent background was chosen and a visual annimation effect was also added. 
 
-A blue button should appear to click: _Make Public_,
+- Cover text is displayed in front of the image which prompts the users to sign up and has an added link to make it convienent for the user to sign up quickly. 
 
-Another blue button should appear to click: _Open Browser_.
+<br>
+<h3>Life Hack Examples Section</h3>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- The Life Hack Examples section includes 3 divs to highlight life hacks, three topics where chosen with examples listed below each heading. 
 
-To log into the Heroku toolbelt CLI:
+- A picture is included in each div. It is styled to be displayed in a circular border. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- The sections is divided into 3 divs which are displayed on a single row on larger screen widths and 1 div per row on smaller screen widths. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<br>
+<h3>Why Join Section</h3>
 
-------
+- The why join section is divided into 4 divs and includes content on why the user should join. It also includes another semi-subtle link to send the user to the sign up section. The site objective is to sign up as many users as possible.
 
-## Release History
+- All 4 divs are displayed in one row on large screens, 2 divs per row on medium screens and 1 div per row on small screens.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+<br>
+<h3>Membership Section</h3>
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- The what do you get membership section includes 2 headings and 2 videos. The sections are displayed on one row on larger devices and 1 section per row on smaller devices. 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+<br>
+<h3>Sign Up Section</h3>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- The sign up section includes a form with text input areas for first name, last name, email address and password with each type set correctly. There is then a question with 7 radio options, first 6 are indivual options while the last option is for all so is shown on the row below despite the screen width. The last part of the form is the sumbit button which is styled to entice the user to click the big red button. The form will not allow the user to submit their data unless the required information has been provided. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+<br>
+<h3>Confirmation Page</h3>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- When the form is submitted correctly, it will take the user to the sign up confirmation page. This page is not accessible via the nav links. This page is included so that the user knows that their data has been submitted correctly. 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- The confirmation page is styled similarly to the main page so the experience is pleasant for the site users. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<br>
+<h3>Social & App Section</h3>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- The footer contains 2 divs which provide links for social media and app stores. The divs are displayed in 1 row on larger devices and 1 div per row on smaller devices. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+<br>
+<br>
+<h2>Testing</h2>
+<hr>
+<br>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<h3>Initial Testing</h3>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- The intial tests were carried out on XXXX. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+<br>
+<h3>Bugs & Solved Issues</h3>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- The intial tests were carried out on XXXX. 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+<br>
+<h4>W3C HTML Validator</h4>
 
-------
+- XXXXX
 
-## FAQ about the uptime script
+<br>
+<h4>W3C HTML Validator</h4>
 
-**Why have you added this script?**
+- XXXXX
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+<br>
+<h4>W3C CSS Validator</h4>
 
-**How will this affect me?**
+- XXXXX
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+<br>
+<h4>Lightouse - Performance, Accessibility, Best Practices & SEO </h4>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- Performance: 98%
+- Accessibility: 100%
+- Best Practices: 100%
+- SEO: 100%
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+<h3>Unresolved Bugs</h3>
 
-**So….?**
+- The intial tests were carried out on XXXX. 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+<br>
+<br>
+<h2>Deployment</h2>
+<hr>
+<br>
 
-**Can I opt out?**
+<h3>GitHub</h3>
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- The site was deployed to my Git Hub pages, which can be accessed here. XXXXXXXXXXX INSERT LINK XXXXXXXXXXXXX
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- My username on GitHub is KC-7.
 
-**Anything more?**
+<br>
+<br>
+<h2>Credits</h2>
+<hr>
+<br>
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+<h3>Content</h3>
 
----
+- XXXXX
 
-Happy coding!
+- XXXXX
+
+<br>
+<h3>Media</h3>
+
+- XXXXX
+
+- XXXXX
+

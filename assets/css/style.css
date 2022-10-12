@@ -648,7 +648,7 @@
         }
     }
 
-    /* For extra extra extra small screens (such as new Galaxy Fold when folded) - 300px wide and down */
+    /* For extra extra extra small screens - 300px wide and down */
 
     @media screen and (max-width: 300px) {
         #menu li {
@@ -660,4 +660,4 @@
     }
 
 
-    /* Note, site has been styled to respond to devices with a screen width as low as 280 px wide, like the Galaxy Fold when folded, however it was design for use on larger devices */
+    /* Note, site has been styled to respond to devices with a screen width as low as 280 px wide */

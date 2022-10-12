@@ -213,23 +213,24 @@
         <form id="sign-up-form" method="GET" action="confirmation.html">
             
             <h3>FREE for a limited time only! <i class="far fa-edit"></i></h3>
+            <div>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+            </div>
+            <div>    
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+            </div>
+            <div> 
+                <label for="email">Email Address</label>
+                <input type="email" name="email_address" id="email" class="text-input" required>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="login_password" id="password" class="text-input" required>
+            </div> 
             
-            <label for="first-name">First Name</label>
-            <input type="text" name="first_name" id="first-name" class="text-input" required>
-
-            <br>
-            
-            <label for="last-name">Last Name</label>
-            <input type="text" name="last_name" id="last-name" class="text-input" required>
-
-            <br>
-            
-            <label for="email">Email Address</label>
-            <input type="email" name="email_address" id="email" class="text-input" required>
-
-            <br>
-
-            <div id="question">
+            <div id="question"> <!-- Spans are wrapped around the radio options in this div to allow a hover css rule to be added -->
                 <h4>What are you most interested in? <i class="far fa-question-circle"></i></h4>
                 <span>
                     <label for="cooking">Cooking Tips</label>
@@ -260,10 +261,10 @@
                     <label for="all">All of the above, I can't decide on just one!</label>
                     <input name="preference" id="all" value="all" type="radio">
                 </span>
+
             </div>
             <div> 
                     <input type="submit" class="sign-up-button" value="Let's get started!">
-                
             </div>
         </form>
 
