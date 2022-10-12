@@ -14,7 +14,7 @@
 /* Main Structure - Body, Headings, Paragraphs, Logo & HR */
 
     body {
-        font-family: 'Noto Sans', sans-serif;
+        font-family: Tahoma, Verdana, sans-serif;
         color: black;
         font-weight: 300;
         background-color: #55BCC9;
@@ -25,11 +25,12 @@
         color: black;
         margin: 30px;
         font-size: xx-large;
+        font-family: 'Noto Sans', sans-serif;
     }
 
     h3, h4 {
         color: purple;
-        font-family: Tahoma, Verdana, sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-weight: 500;
         margin: 30px;
         font-size: x-large;
@@ -318,6 +319,14 @@
         border-color: purple;
     }
 
+    #question {
+        font-weight: normal;
+    }
+
+    #question span:hover {
+        font-weight: bold;
+    }
+
     .sign-up-button {
         height: 200px;
         width: 200px;
@@ -480,9 +489,9 @@
 
     /* Note: Site designed on large screen width. No additional changes required for larger screens. */
 
-    /* For mediunm-large screens from 1003px wide and down */
+    /* For mediunm-large screens from 1049px wide and down */
 
-    @media screen and (max-width: 1003px) {
+    @media screen and (max-width: 1049px) {
         #menu {
             line-height: 50px;
         }
@@ -584,7 +593,7 @@
     @media screen and (max-width: 395px) {
         #menu li {
             margin: 0 30px 0 60px;
-            font-size: 50%;
+            font-size: 75%;
         }
         #header-logo {
             width: 125px;
@@ -601,6 +610,7 @@
     @media screen and (max-width: 350px) {
         #menu li {
             margin: 0 30px 0 50px;
+            font-size: 50%;
         }
         #header-logo {
             width: 100px;
