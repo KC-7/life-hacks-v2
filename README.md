@@ -11,18 +11,20 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 - The nav bar is located at the top of the screen and shows the site logo on the left hand side and the nav menu on the right hand side. 
 
-- The nav menu includes 6 links which navigate to different sections of the main page. The links in the nav bar on the home page send you directly to the section id to avoid reloading the page. The links on the confirmation page have been updated to send you back to the main page. The home page has a link to send you to the top of the page while the confirmation page has an additional link to send you back to the home page. 
+- The nav menu includes 4 links which navigate to different sections of the main page. The links in the nav bar on the home page send the user directly to the section id to avoid reloading the page. The links on the confirmation page send you back to the main page. The home page has a link to send you to the top of the page while the confirmation page has an additional link to send you back to the home page. 
 
-- The nav bar menu has responive styling to work on devices with screen widths as low as 280px. The allow this, multiple media queires have been added so that the menu appears aesthetically pleasing on a variety of different screen sizes. On larger screens, it shows all 6 items on 1 row, then it goes to 2 lines per row and then its goes to 1 items per row. 
+- The nav bar menu has responive styling to work on devices with screen widths as low as 280px. Media queires have been added so that the menu appears aesthetically pleasing on a variety of different screen sizes. On larger screens, it shows all 4 items on 1 row. On smaller devices, such as mobile phones, the menu is displayed in 2 rows with 2 links on each row. 
 
-- The nav bar has a decorative border around the items when the user hovers over it. 
+- The nav bar has a decorative border around the items when the user hovers over it. The styling is in line with the rest of the website. 
 
 
 ### Hero Image Section
 
-- The Hero Cover Image is displayed at the top of the page. An image with a transparent background was chosen and a visual annimation effect was also added. 
+- The Hero Cover Image is displayed at the top of the page. An image with a transparent background was chosen and a visual annimation effect was also added.
 
 - Cover text is displayed in front of the image which prompts the users to sign up and has an added link to make it convienent for the user to sign up quickly. 
+
+- The CSS Validation logo has been included in this section. 
 
 
 ### Life Hack Examples Section
@@ -69,27 +71,26 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 ### Initial Testing
 
-- The intial tests were carried out on XXXX. 
+- The intial tests were carried out by utilising the inspect feature on the Google Chrome web browser on my laptop. I also checked how the website responded on my mobile phone. I ran initial (W3C) validation tests for both the HTML and CSS alongside Lighthouse Reports on Chrome. I addressed and resolved any of the issues that arose. 
 
 
 ### Bugs & Solved Issues
 
-- The intial tests were carried out on XXXX. 
+- My image and videos were not working when the site was deployed as I had used a "/" in front of the file location. 
+
+- Initially, I uploaded high quality photos and videos. To improve page preformance, I reduced the file sizes accordingly so that they are optiambly sized for the site. 
+
+- Initially I had designed for the nav bar menu items to be stacked verticaly on smaller devices,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 #### W3C HTML Validator
 
-- XXXXX
-
-
-#### W3C HTML Validator
-
-- XXXXX
+- No issues found in final tests on both the main and confirmation pages.
 
 
 #### W3C CSS Validator
 
-- XXXXX
+- No issues found in final tests on both the main and confirmation pages.
 
 
 #### Lightouse - Performance, Accessibility, Best Practices & SEO
@@ -98,6 +99,8 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 - Accessibility: 100%
 - Best Practices: 100%
 - SEO: 100%
+
+Above results for both the main and confirmation page. The preformance score can vary. 
 
 ### Unresolved Bugs
 
