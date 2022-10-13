@@ -132,6 +132,31 @@ hr.bold {
     font-size: 125%;
 }
 
+#top-button {
+    position: fixed;
+    bottom: 25px;
+    float: right;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    font-size: 12px;
+    color: #f5f5f5;
+    border: 2px solid #f5f5f5;
+    background-color: #800080;
+    padding: 2px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+#top-button a {
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+#top-button:hover {
+    background-color: #55BCC9;
+}
+
 
 /* Hero Image & Cover Text */
 
@@ -453,26 +478,18 @@ footer div ul li:hover {
         padding: 0;
         background-color: #800080;
     }
+}
 
-    #confirmation-footer {
-        height: 300px;
-        position: relative;
-    }
+/* For screens from 849px wide and down */
 
+@media screen and (max-width: 849px) {
+    
     #confirmation-outer {
         height: 1000px;
     }
 
     #confirmation-image {
         height: 1000px;
-    }
-}
-
-/* For screens from 849px wide and down */
-
-@media screen and (max-width: 849px) {
-    #menu {
-        line-height: 50px;
     }
 }
 
@@ -506,7 +523,7 @@ footer div ul li:hover {
     }
 
     #menu {
-        margin-right: 15px;
+        margin-right: 5px;
     }
 
     #why-examples div {
@@ -520,19 +537,14 @@ footer div ul li:hover {
     .text-input {
         width: 90%;
     }
-
-    #confirmation-text {
-        padding: 25px;
-        height: 90%;
-    }
 }
 
 /* For screens from 460px wide and down */
 
 @media screen and (max-width: 460px) {
 
-    #menu li {
-        font-size: 75%;
+    #menu {
+        line-height: 50px;
     }
 
     #hero-text {
@@ -542,9 +554,13 @@ footer div ul li:hover {
         padding: 5px;
     }
 
-    #sign-up-link-button {
+    #sign-up-link-button, #return-button {
         height: 100px;
         width: 100px;
+    }
+
+    #confirmation-text {
+        padding: 25px;
     }
 
     #confirmation-text h2 {
@@ -560,7 +576,6 @@ footer div ul li:hover {
 
 @media screen and (max-width: 375px) {
     
-  
     footer div ul li {
         font-size: 150%;
     }
@@ -573,9 +588,13 @@ footer div ul li:hover {
 /* For screens from 340px wide and down to 280px*/
 
 @media screen and (max-width: 340px) {
-    
-    #menu {
-        line-height: 33px;
+
+    #confirmation-text h2 {
+        font-size: 125%;
+    }
+
+    #confirmation-text h3 {
+        font-size: 100%;
     }
 }
 
