@@ -1,665 +1,697 @@
 /* Import statement for Google Fonts */
-    
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Open+Sans:wght@300&display=swap');
 
 /* Remove: margin, padding and border */
 
-    * {
-        margin: 0;
-        padding: 0;
-        border: none;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
 
 /* Main Structure - Body, Headings, Paragraphs, Logo & HR */
 
-    body {
-        font-family: Tahoma, Verdana, sans-serif;
-        color: black;
-        font-weight: 300;
-        background-color: #55BCC9;
-        margin-top: 100px;
-    }
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    color: #000000;
+    font-weight: 300;
+    background-color: #55BCC9;
+    margin-top: 100px;
+}
 
-    h1, h2 {
-        color: black;
-        margin: 30px;
-        font-size: xx-large;
-        font-family: 'Noto Sans', sans-serif;
-    }
+h1,
+h2 {
+    color: #000000;
+    margin: 30px;
+    font-size: xx-large;
+    font-family: 'Noto Sans', sans-serif;
+}
 
-    h3, h4 {
-        color: purple;
-        font-family: 'Noto Sans', sans-serif;
-        font-weight: 500;
-        margin: 30px;
-        font-size: x-large;
-    }
+h3,
+h4 {
+    color: #800080;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    margin: 30px;
+    font-size: x-large;
+}
 
-    p {
-        margin: 15px 9px 15px 9px;
-        font-size: large;
-    }
+p {
+    margin: 15px 9px 15px 9px;
+    font-size: large;
+}
 
-    hr {
-        border-bottom: 1px solid grey;
-        width: 100%;
-    }
+hr {
+    border-bottom: 1px solid #808080;
+    width: 100%;
+}
 
-    hr.bold {
-        border-bottom: 6px solid purple;
-        width: 100%;
-    }
+hr.bold {
+    border-bottom: 6px solid #800080;
+    width: 100%;
+}
 
 
 /* Nav Menu Links */
 
-    #header-logo {
-        float: left;
-        width: 200px;
-        height: 66px;
-        padding: 15px 15px 15px 30px;
-    }
+#header-logo {
+    float: left;
+    width: 200px;
+    height: 66px;
+    padding: 15px 15px 15px 30px;
+}
 
-    #nav-bar {
-        position: fixed;       
-        width: 100%;
-        height: 100px;
-        top: 0;
-        background-color: purple;
-        z-index: +10;
-    }
+#nav-bar {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    background-color: #800080;
+    z-index: +10;
+}
 
-    #menu {
-        font-size: 125%;
-        vertical-align: middle;
-        color: whitesmoke;
-        line-height: 100px;
-    }
+#menu {
+    font-size: 125%;
+    vertical-align: middle;
+    color: #f5f5f5;
+    line-height: 100px;
+}
 
-    #menu li {
-        float: right;
-        list-style-type: none;
-        margin-right: 30px;
-    }
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
 
-    #menu a {
-        text-decoration: none;
-        color: inherit;
-    }
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
 
-    #menu a:hover {
-        border: 2px solid #55BCC9;
-        border-top-left-radius: 20%;
-        border-bottom-right-radius: 20%;
-        padding: 5px;
-    }
+#menu a:hover {
+    border: 2px solid #55BCC9;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    padding: 5px;
+}
 
-            /* Not currently in use. Can be used to highlight active page on sites with multiple pages */
-            .active {
-                border: 2px solid #97CAEF;
-                border-top-left-radius: 20%;
-                border-bottom-right-radius: 20%;
-                padding: 5px;
-            }
+/* Not currently in use. Can be used to highlight active page on sites with multiple pages */
+.active {
+    border: 2px solid #97CAEF;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    padding: 5px;
+}
 
 
 /* Hero Image & Cover Text */
 
-    #hero-outer {
-        height: 750px;
-        width: 100%;
-        position: relative;
-        overflow: hidden;
+#hero-outer {
+    height: 750px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#hero-image {
+    width: 100%;
+    height: 750px;
+    background: url(../images/palm-trees.webp) no-repeat bottom;
+    background-attachment: fixed;
+
+    /* Below animation effect learned from Code Institute's Love Running Project, values are different */
+
+    /* Animates zoom effect on hero image */
+    animation-name: hero-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+/* Creates the level of zoom for the hero image */
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(3);
     }
 
-    #hero-image {
-        width: 100%;
-        height: 750px;
-        background: url(../images/palm-trees.webp) no-repeat bottom;
-        background-attachment: fixed;
-        
-        /* Below animation effect learned from Code Institute's Love Running Project, values are different */
-
-        /* Animates zoom effect on hero image */
-        animation-name: hero-zoom;
-        animation-duration: 2s;
-        animation-fill-mode: forwards;
+    to {
+        transform: scale(1);
     }
+}
 
-    /* Creates the level of zoom for the hero image */
+/* The below styling dispalys the text in a box with a styled border, semi-opaque background colour, padding and positions it in a set location in front of the hero image */
+#hero-text {
+    width: 350px;
+    height: 350px;
+    background-color: #323232e6;
+    border: 5px solid #800080;
+    border-radius: 10%;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    text-align: center;
+    padding: 50px;
+    color: #f5f5f5;
+    word-spacing: 2px;
+}
 
-    @keyframes hero-zoom {
-        from{
-            transform: scale(3);
-        }
-        to{
-            transform: scale(1);
-        }
-    }
+#hero-text h2 {
+    color: #55BCC9;
+}
 
-    #hero-text {
-        width: 350px;
-        height: 350px;
-        background-color: rgba(50, 50, 50, 0.9);
-        border: 5px solid #800080;
-        border-radius: 10%;
-        position: absolute;
-        top: 100px;
-        left: 200px;
-        text-align: center;
-        padding: 50px;
-        color: whitesmoke;
-        word-spacing: 2px;
-   }
+#hero-link {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #800080;
+    border-radius: 50%;
+    background-color: #55BCC9;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+    /*Line height is equal to height to center the text in the div */
+}
 
-   #hero-text h2 {
-        color: #55BCC9;
-    }
+#hero-link a {
+    text-decoration: none;
+    color: #000000;
+}
 
-   #hero-link {
-        width: 150px;
-        height: 150px;
-        border: 5px solid purple;
-        border-radius: 50%;
-        background-color: #55BCC9;
-        margin: auto;
-        margin-top: 50px;
-        text-align: center;
-        vertical-align: middle;
-        line-height: 150px; /*Line height is equal to height to center the text in the div */
-   }
+#hero-link:hover {
+    background-color: #ff0000bf;
+    font-size: 125%;
+    border: 5px solid #000000;
+}
 
-   #hero-link a {
-        text-decoration: none;
-        color: black; 
-   }
-
-   #hero-link:hover {
-        background-color: rgba(255, 0, 0, 0.75);
-        font-size: 125%;
-        border: 5px solid black;
-    }
-
-    #hero-link a:hover {
-        font-weight: bold;
-        color: whitesmoke;
-    }
+#hero-link a:hover {
+    font-weight: bold;
+    color: #f5f5f5;
+}
 
 
 /* Life Hack Examples */
 
-    #hack-examples {
-        width: 100%;
-    }
+#hack-examples {
+    width: 100%;
+}
 
-    #hack-examples div {
-        width: 33%;
-        background-color: #97CAEF;
-        border: 20px solid #55BCC9;
-        border-top-left-radius: 20%;
-        border-bottom-right-radius: 20%;
-        box-sizing: border-box;
-        float: left;
-        padding: 10px 10px 20px 10px;
-        text-align: center;
-        line-height: 30px;
-        margin-bottom: 50px;
-    }
+/* The below styles the divs into 3 sections in one row with styled borders and padding */
+#hack-examples div {
+    width: 33%;
+    background-color: #97CAEF;
+    border: 20px solid #55BCC9;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    box-sizing: border-box;
+    float: left;
+    padding: 10px 10px 20px 10px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
 
-    #hack-examples div ul {
-        list-style: none;
-        font-size: large;
-    }
+#hack-examples div ul {
+    list-style: none;
+    font-size: large;
+}
 
-    #hack-examples div ul li {
-        padding: 15px 0;
-    }
+#hack-examples div ul li {
+    padding: 15px 0;
+}
 
-    #hack-examples div ul li:hover {
-        font-weight: bold;
-    }
+#hack-examples div ul li:hover {
+    font-weight: bold;
+}
 
-    .example-images {
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        object-fit: cover;
-        border: 3px solid purple;
-    }
+/*  The below allows the images to be displayed with a circular border */
+.example-images {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #800080;
+}
 
 
 /* Reasons to Sign Up */
 
-    #why-examples {
-        width: 100%;
-    }
+#why-examples {
+    width: 100%;
+}
 
-    #why-examples div {
-        width: 25%;
-        background-color: #97CAEF;
-        border: 20px solid #55BCC9;
-        border-top-left-radius: 20%;
-        border-bottom-right-radius: 20%;
-        box-sizing: border-box;
-        float: left;
-        padding: 10px 10px 20px 10px;
-        text-align: center;
-        line-height: 30px;
-        margin-bottom: 50px;
-    }
+/*  The below styles the divs into 4 sections on one row with custom border and padding */
+#why-examples div {
+    width: 25%;
+    background-color: #97CAEF;
+    border: 20px solid #55BCC9;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    box-sizing: border-box;
+    float: left;
+    padding: 10px 10px 20px 10px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
 
-    #why-examples a {
-        text-decoration: none;
-        font-weight: bold;
-    }
+#why-examples a {
+    text-decoration: none;
+    font-weight: bold;
+}
 
-    #why-examples div:hover {
-        font-weight: bold;
-    }
+#why-examples div:hover {
+    font-weight: bold;
+}
 
 
 /* About Us */
 
-    #about-examples {
-        width: 100%;
-    }
+#about-examples {
+    width: 100%;
+}
 
-    #about-examples div {
-        width: 50%;
-        background-color: #97CAEF;
-        border: 20px solid #55BCC9;
-        border-top-left-radius: 20%;
-        border-bottom-right-radius: 20%;
-        box-sizing: border-box;
-        float: left;
-        padding: 10px 10px 20px 10px;
-        text-align: center;
-        line-height: 30px;
-        margin-bottom: 50px;
-    }
+/* The belows styles the divs into 4 sections with custom border and padding */
+#about-examples div {
+    width: 50%;
+    background-color: #97CAEF;
+    border: 20px solid #55BCC9;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    box-sizing: border-box;
+    float: left;
+    padding: 10px 10px 20px 10px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
 
-            /* Not currently in use as there is no text in the paragraph */
-            #about-examples div:hover {
-                font-weight: bold;
-            }
-
-    .about-videos {
-        max-width: 80%;
-        max-height: 600px;
-        margin-top: 15px;
-    }
+.about-videos {
+    max-width: 80%;
+    max-height: 600px;
+    margin-top: 15px;
+}
 
 
 /* Sign Up Form */
 
-    #sign-up {
-        width: 100%;
-        font-weight: bold;
-    }
+#sign-up {
+    width: 100%;
+    font-weight: bold;
+}
 
-    #sign-up-form {
-        width: 90%;
-        border: 2px solid #55BCC9;
-        background-color: #97CAEF;
-        border-radius: 15%;
-        text-align: center;
-        line-height: 60px;
-        margin-left: 5%;
-        margin-bottom: 60px;
-    }
+#sign-up-form {
+    width: 90%;
+    border: 2px solid #55BCC9;
+    background-color: #97CAEF;
+    border-radius: 15%;
+    text-align: center;
+    line-height: 60px;
+    margin-left: 5%;
+    margin-bottom: 60px;
+}
 
-    .text-input {
-        background-color: whitesmoke;
-        height: 30px;
-        width: 75%;     
-        border-radius: 5%;
-        border: 3px solid #55BCC9;
-    }
+.text-input {
+    background-color: #f5f5f5;
+    height: 30px;
+    width: 75%;
+    border-radius: 5%;
+    border: 3px solid #55BCC9;
+}
 
-    .text-input:hover {
-        border-color: purple;
-    }
+.text-input:hover {
+    border-color: #800080;
+}
 
-    #question {
-        font-weight: normal;
-    }
+#question {
+    font-weight: normal;
+}
 
-    #question span:hover {
-        font-weight: bold;
-    }
+#question span:hover {
+    font-weight: bold;
+}
 
-    .sign-up-button {
-        height: 200px;
-        width: 200px;
-        margin-top: 30px;
-        border-radius: 50%;
-        font-size: 100%;
-        background-color: purple;
-        color: whitesmoke;
-        margin-bottom: 50px;
-    }
-    
-    .sign-up-button:hover {
-        background-color: rgba(255, 0, 0, 0.75);
-        color: whitesmoke;
-        font-weight: bolder;
-        font-size: 125%;
-    }
+.sign-up-button {
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+    border-radius: 50%;
+    font-size: 100%;
+    background-color: #800080;
+    color: #f5f5f5;
+    margin-bottom: 50px;
+}
 
-    input[type="radio"] {
-        margin: 0 15px 0 2px;
-      }
+.sign-up-button:hover {
+    background-color: #ff0000bf;
+    color: #f5f5f5;
+    font-weight: bolder;
+    font-size: 125%;
+}
+
+input[type="radio"] {
+    margin: 0 15px 0 2px;
+}
 
 
 /* Footer */
 
-    footer {
-        height: 150px;
-        text-align: center;
-        background-color: purple;
-        padding-bottom: 25px;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        z-index:10;
-    }
+footer {
+    height: 150px;
+    text-align: center;
+    background-color: #800080;
+    padding-bottom: 25px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+}
 
-    footer a {
-        text-decoration: none;
-        color: #55BCC9;
-        padding: 10px 25px;
-    }
+footer a {
+    text-decoration: none;
+    color: #55BCC9;
+    padding: 10px 25px;
+}
 
-    footer div {
-        width: 50%;
-        float: left;
-    }
+footer div {
+    width: 50%;
+    float: left;
+}
 
-    footer div h3 {
-        font-weight: bold;
-        font-size: larger;
-        color: whitesmoke;
-    }
+footer div h3 {
+    font-weight: bold;
+    font-size: larger;
+    color: #f5f5f5;
+}
 
-    footer div ul li {
-        font-size: 300%;
-        display: inline;
-        color: inherit;
-        text-decoration: none;
-    }
+footer div ul li {
+    font-size: 300%;
+    display: inline;
+    color: inherit;
+    text-decoration: none;
+}
 
-    footer div ul li:hover {
-        font-size: 333%;
-    }
+footer div ul li:hover {
+    font-size: 333%;
+}
 
 
 /* Confirmation Page */
 
-   #confirmation-outer {
-        width: 100%;
-        height: 777px;
-        position: relative;
-        overflow: hidden;
-   }
+#confirmation-outer {
+    width: 100%;
+    height: 777px;
+    position: relative;
+    overflow: hidden;
+}
 
-   #confirmation-image {
-        background: url("../images/palm-trees.webp") no-repeat bottom;
-        background-attachment: fixed;
-        width: 100%;
-        height: 777px;
-   }
+#confirmation-image {
+    background: url("../images/palm-trees.webp") no-repeat bottom;
+    background-attachment: fixed;
+    width: 100%;
+    height: 777px;
+}
 
-   #confirmation-text {
-        width: 75%;
-        height: 75%;
-        background-color: rgba(50, 50, 50, 0.9);
-        border: 5px solid #800080;
-        border-radius: 10%;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        padding: 50px;
-        color: whitesmoke;
-        word-spacing: 2px;
-   }
+#confirmation-text {
+    width: 75%;
+    height: 75%;
+    background-color: #323232e6;
+    border: 5px solid #800080;
+    border-radius: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 50px;
+    color: #f5f5f5;
+    word-spacing: 2px;
+}
 
-   #confirmation-text h2 {
-        color: #55BCC9;
-    }
+#confirmation-text h2 {
+    color: #55BCC9;
+}
 
-   #confirmation-text h3 {
-        color: whitesmoke;
-   }
+#confirmation-text h3 {
+    color: #f5f5f5;
+}
 
-   #confirmation-text p {
-        color: silver;
-        font-size: smaller;
-   }
+#confirmation-text p {
+    color: #c0c0c0;
+    font-size: smaller;
+}
 
-   #confirmation-return {
-        width: 250px;
-        height: 250px;
-        border: 5px solid purple;
-        border-radius: 50%;
-        background-color: #55BCC9;
-        margin: auto;
-        margin-top: 50px;
-        text-align: center; 
-        vertical-align: middle;
-        line-height: 250px;
-   }
+#confirmation-return {
+    width: 250px;
+    height: 250px;
+    border: 5px solid #800080;
+    border-radius: 50%;
+    background-color: #55BCC9;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 250px;
+}
 
-   #confirmation-return:hover {
-        font-weight: bolder;
-    }
+#confirmation-return:hover {
+    font-weight: bolder;
+}
 
-   #confirmation-text div a {
-        line-height: 1.5;
-        display: inline-block;
-        vertical-align: middle;
-        color: black;
-     }
+#confirmation-text div a {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    color: #000000;
+}
 
-   #confirmation-text a {
-        text-decoration: none;
-        font-weight: bolder;
-        color: #55BCC9;
-   }
+#confirmation-text a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #55BCC9;
+}
 
-    #confirmation-logo {
-        width: 200px;
-        height: 66px;
-        padding: 15px;
-    }
+#confirmation-logo {
+    width: 200px;
+    height: 66px;
+    padding: 15px;
+}
 
-   #confirmation-footer {
-        height: 150px;
-        text-align: center;
-        background-color: purple;
-        padding-bottom: 25px;
-        left: 0;
-        bottom: 0;
-        position: fixed;
-        width: 100%;
-        z-index:10;
-   }
+#confirmation-footer {
+    height: 150px;
+    text-align: center;
+    background-color: #800080;
+    padding-bottom: 25px;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
 
 /* Media Queries */
 
-    /* Note: Site designed on large screen width. No additional changes required for larger screens. */
+/* Note: Site designed on large screen width. No additional changes required for larger screens. */
 
-    /* For mediunm-large screens from 1049px wide and down */
+/* For mediunm-large screens from 1049px wide and down */
 
-    @media screen and (max-width: 1049px) {
-        #menu {
-            line-height: 50px;
-        }
-        #hack-examples div {
-            width: 100%;
-        }
-        #why-examples div {
-            width: 50%;
-        }
-        footer div {
-            width: 100%;
-            font-size: 75%;
-            height: 150px;
-            padding: 0;
-            background-color: purple;
-        }
-        #confirmation-footer {
-            height: 300px;
-            position: relative;
-        }
-        #confirmation-outer {
-            height: 1000px;
-        }
-        #confirmation-image{
-            height: 1000px;
-        }
+@media screen and (max-width: 1049px) {
+    #menu {
+        line-height: 50px;
     }
 
-    /* For medium screens - 680px wide and down */
-
-    @media screen and (max-width: 680px) {
-        #menu {
-            font-size: 100%;
-        }
-        #header-logo {
-            width: 150px;
-            height: 50px;
-            padding: 25px;
-        }
-        #hero-text {
-            top: 50px;
-            left: 100px;
-            width: 250px;
-        }
+    #hack-examples div {
+        width: 100%;
     }
 
-    /* For medium-small screens - 580px wide and down */
-
-    @media screen and (max-width: 580px) {
-        #menu {
-            line-height: 16px;
-        }
-        #menu li {
-            margin: 0 30px 0 100px;
-        }
-        #menu a:hover {
-            border: none;
-            padding: 0;
-            font-weight: bold;
-            color: red;
-        }
-        #why-examples div {
-            width: 100%;
-        }
-        #about-examples div {
-            width: 100%;
-        }
-        .text-input {
-            width: 90%;
-        }
-        #confirmation-outer {
-            height: 1100px;
-        }
-        #confirmation-image{
-            height: 1100px;
-        }
-        #confirmation-text {
-            padding: 25px;
-            height: 90%;
-        }
+    #why-examples div {
+        width: 50%;
     }
 
-    /* For small screens - 460px wide and down */
-
-    @media screen and (max-width: 460px) {
-        #menu li {
-            margin: 0 30px 0 40px;
-        }
-        #hero-text {
-            top: 30px;
-            left: 15px;
-            width: 160px;
-            height: 450px;
-        }
+    footer div {
+        width: 100%;
+        font-size: 75%;
+        height: 150px;
+        padding: 0;
+        background-color: #800080;
     }
 
-    /* For extra small screens - 395px wide and down */
-
-    @media screen and (max-width: 395px) {
-        #menu li {
-            margin: 0 30px 0 50px;
-            font-size: 75%;
-        }
-        #header-logo {
-            width: 125px;
-            height: 42px;
-            padding-top: 30px;
-        }
-        footer div ul li {
-            font-size: 200%;
-        }
+    #confirmation-footer {
+        height: 300px;
+        position: relative;
     }
 
-    /* For extra extra small screens - 350px wide and down */
-
-    @media screen and (max-width: 350px) {
-        #menu li {
-            margin: 0 30px 0 35px;
-            font-size: 50%;
-        }
-        #header-logo {
-            width: 100px;
-            height: 33px;
-            padding-top: 35px;
-        }
-        footer div ul li {
-            font-size: 150%;
-        }
-        #hero-text {
-            top: 50px;
-            left: 10px;
-            padding: 5px;
-            height: 350px;
-        }
-        #hero-text h2 {
-            font-size: 125%;
-        }
-        #confirmation-text h2 {
-            font-size: 150%;
-        }
-        #confirmation-text div a {
-            color: whitesmoke;
-        }
-        #confirmation-return {
-            border: none;
-            background-color: transparent;
-            width: 200px;
-            height: 150px;
-            line-height: 150px;
-        }
-        #confirmation-logo {
-            width: 150px;
-            height: 50px;
-        }
+    #confirmation-outer {
+        height: 1000px;
     }
 
-    /* For extra extra extra small screens - 300px wide and down */
+    #confirmation-image {
+        height: 1000px;
+    }
+}
 
-    @media screen and (max-width: 300px) {
-        #menu li {
-            margin: 0 30px 0 15px;
-        }
-        footer div ul li:hover {
-            font-size: 165%;
-        }
+/* For medium screens - 680px wide and down */
+
+@media screen and (max-width: 680px) {
+    #menu {
+        font-size: 100%;
     }
 
+    #header-logo {
+        width: 150px;
+        height: 50px;
+        padding: 25px;
+    }
 
-    /* Note, site has been styled to respond to devices with a screen width as low as 280 px wide */
+    #hero-text {
+        top: 50px;
+        left: 100px;
+        width: 250px;
+    }
+}
+
+/* For medium-small screens - 580px wide and down */
+
+@media screen and (max-width: 580px) {
+    #menu {
+        line-height: 16px;
+    }
+
+    #menu li {
+        margin: 0 30px 0 100px;
+    }
+
+    #menu a:hover {
+        border: none;
+        padding: 0;
+        font-weight: bold;
+        color: #ff0000;
+    }
+
+    #why-examples div {
+        width: 100%;
+    }
+
+    #about-examples div {
+        width: 100%;
+    }
+
+    .text-input {
+        width: 90%;
+    }
+
+    #confirmation-outer {
+        height: 1100px;
+    }
+
+    #confirmation-image {
+        height: 1100px;
+    }
+
+    #confirmation-text {
+        padding: 25px;
+        height: 90%;
+    }
+}
+
+/* For small screens - 460px wide and down */
+
+@media screen and (max-width: 460px) {
+    #menu li {
+        margin: 0 30px 0 40px;
+    }
+
+    #hero-text {
+        top: 30px;
+        left: 15px;
+        width: 160px;
+        height: 450px;
+    }
+}
+
+/* For extra small screens - 395px wide and down */
+
+@media screen and (max-width: 395px) {
+    #menu li {
+        margin: 0 30px 0 50px;
+        font-size: 75%;
+    }
+
+    #header-logo {
+        width: 125px;
+        height: 42px;
+        padding-top: 30px;
+    }
+
+    footer div ul li {
+        font-size: 200%;
+    }
+}
+
+/* For extra extra small screens - 350px wide and down */
+
+@media screen and (max-width: 350px) {
+    #menu li {
+        margin: 0 30px 0 35px;
+        font-size: 50%;
+    }
+
+    #header-logo {
+        width: 100px;
+        height: 33px;
+        padding-top: 35px;
+    }
+
+    footer div ul li {
+        font-size: 150%;
+    }
+
+    #hero-text {
+        top: 50px;
+        left: 10px;
+        padding: 5px;
+        height: 350px;
+    }
+
+    #hero-text h2 {
+        font-size: 125%;
+    }
+
+    #confirmation-text h2 {
+        font-size: 150%;
+    }
+
+    #confirmation-text div a {
+        color: whitesmoke;
+    }
+
+    #confirmation-return {
+        border: none;
+        background-color: transparent;
+        width: 200px;
+        height: 150px;
+        line-height: 150px;
+    }
+
+    #confirmation-logo {
+        width: 150px;
+        height: 50px;
+    }
+}
+
+/* For extra extra extra small screens - 300px wide and down */
+
+@media screen and (max-width: 300px) {
+    #menu li {
+        margin: 0 30px 0 15px;
+    }
+
+    footer div ul li:hover {
+        font-size: 165%;
+    }
+}
+
+
+/* Note, site has been styled to respond to devices with a screen width as low as 280 px wide */
