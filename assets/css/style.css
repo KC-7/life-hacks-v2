@@ -213,6 +213,9 @@ hr.bold {
     color: #55BCC9;
 }
 
+#hero-logo {
+    width: 70%;
+}
 
 /* Life Hack Examples */
 
@@ -558,10 +561,6 @@ footer div ul li:hover {
     #sign-up-link-button, #return-button, #hero-link {
         height: 100px;
         width: 100px;
-    }
-
-    #confirmation-text {
-        padding: 25px;
     }
 
     #confirmation-text h2 {
