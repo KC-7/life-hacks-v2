@@ -282,6 +282,7 @@ hr.bold {
 #why-examples a {
     text-decoration: none;
     font-weight: bold;
+    color: #ff0000;
 }
 
 #why-examples div:hover {
@@ -510,6 +511,10 @@ footer div ul li:hover {
     #hero-text h2 {
         font-size: 150%;
     }
+
+    #about-examples div {
+        width: 100%;
+    }
 }
 
 /* For screens - 580px wide and down */
@@ -530,18 +535,14 @@ footer div ul li:hover {
         width: 100%;
     }
 
-    #about-examples div {
-        width: 100%;
-    }
-
     .text-input {
         width: 90%;
     }
 }
 
-/* For screens from 460px wide and down */
+/* For screens from 437px wide and down */
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 437px) {
 
     #menu {
         line-height: 50px;
@@ -554,7 +555,7 @@ footer div ul li:hover {
         padding: 5px;
     }
 
-    #sign-up-link-button, #return-button {
+    #sign-up-link-button, #return-button, #hero-link {
         height: 100px;
         width: 100px;
     }

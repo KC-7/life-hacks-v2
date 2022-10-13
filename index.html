@@ -65,11 +65,11 @@
             </h2>
             <!-- Circular button to take you to the sign up page -->            
             <div>
-                <button class="circle-button" id="sign-up-link-button">
-                    <a href="#sign-up" aria-label="Button sends you to the Sign Up Section">
+                <form id="sign-up-link" method="GET" action="#sign-up">
+                    <button class="circle-button" id="sign-up-link-button">
                         Sign Up Now! <i class="far fa-edit"></i>
-                    </a>
-                </button>
+                    </button>
+                </form>
             </div>
         </div>
 
@@ -181,13 +181,11 @@
         <div>
             <h3>Daily tips, tricks & hacks sent straight to your inbox! <i class="fas fa-inbox"></i></h3>
             <hr> <!-- The below public domain video was sourced from Pexels. Uploaded by "cottonbro" -->
-            <video src="assets/videos/cutting-converted.mp4" autoplay muted loop id="cutting-video"
-                class="about-videos">
-                <!-- The about-videos class targets both videos in this, the about, section -->
+            <video src="assets/videos/cutting.mp4" autoplay muted loop id="cutting-video" class="about-videos">
                 <p>
                     Your web browser doesn't support HTML5 video.
                 </p>
-                <a href="assets/videos/cutting-converted.mp4" aria-label="Video of cutting meat with a knife">
+                <a href="assets/videos/cutting.mp4" aria-label="Video of cutting meat with a knife">
                     Link to the video.
                 </a>
             </video>
@@ -196,12 +194,11 @@
         <div>
             <h3>Access to a vast selection of content & courses on our app! <i class="fas fa-money-bill-wave"></i></h3>
             <hr><!-- The below public domain video was sourced from Pexels. Uploaded by "Tima Miroshnichenko" -->
-            <video src="assets/videos/numbers-converted.mp4" autoplay muted loop id="numbers-video"
-                class="about-videos">
+            <video src="assets/videos/numbers.mp4" autoplay muted loop id="numbers-video" class="about-videos">
                 <p>
                     Your web browser doesn't support HTML5 video.
                 </p>
-                <a href="assets/videos/numbers-converted.mp4" aria-label="Video of financial numbers on a screen">
+                <a href="assets/videos/numbers.mp4" aria-label="Video of financial numbers on a screen">
                     Link to the video.
                 </a>
             </video>
@@ -334,7 +331,7 @@
 
     <!-- Button to send user back to top of page -->
     <button id="top-button">
-        <a href="#hero-outer" aria-label="Sends you back to the top of our Home Page">Back to Top <i class="far fa-arrow-alt-circle-up"></i></a>
+        <a href="#hero-outer" aria-label="Sends you back to the top of our Home Page" >Back to Top <i class="far fa-arrow-alt-circle-up"></i></a>
     </button>
 
     <!-- font awesome script -->
