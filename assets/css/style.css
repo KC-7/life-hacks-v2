@@ -90,6 +90,7 @@ hr.bold {
     color: inherit;
 }
 
+/* The below displays a decorative border around the menu items when the user hovers over them */
 #menu a:hover {
     border: 2px solid #55BCC9;
     border-top-left-radius: 20%;
@@ -103,6 +104,31 @@ hr.bold {
     border-top-left-radius: 20%;
     border-bottom-right-radius: 20%;
     padding: 5px;
+}
+
+/* Button Styling */
+
+.circle-button {
+    height: 175px;
+    width: 175px;
+    margin: 30px;
+    border-radius: 50%;
+    font-size: 100%;
+    background-color: #800080;
+    color: #f5f5f5;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.circle-button a {
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.circle-button:hover {
+    background-color: #ff0000bf;
+    color: #f5f5f5;
+    font-weight: bolder;
+    font-size: 125%;
 }
 
 
@@ -159,36 +185,6 @@ hr.bold {
 
 #hero-text h2 {
     color: #55BCC9;
-}
-
-#hero-link {
-    width: 150px;
-    height: 150px;
-    border: 5px solid #800080;
-    border-radius: 50%;
-    background-color: #55BCC9;
-    margin: auto;
-    margin-top: 50px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 150px;
-    /*Line height is equal to height to center the text in the div */
-}
-
-#hero-link a {
-    text-decoration: none;
-    color: #000000;
-}
-
-#hero-link:hover {
-    background-color: #ff0000bf;
-    font-size: 125%;
-    border: 5px solid #000000;
-}
-
-#hero-link a:hover {
-    font-weight: bold;
-    color: #f5f5f5;
 }
 
 
@@ -333,24 +329,6 @@ hr.bold {
     font-weight: bold;
 }
 
-.sign-up-button {
-    height: 200px;
-    width: 200px;
-    margin-top: 30px;
-    border-radius: 50%;
-    font-size: 100%;
-    background-color: #800080;
-    color: #f5f5f5;
-    margin-bottom: 50px;
-}
-
-.sign-up-button:hover {
-    background-color: #ff0000bf;
-    color: #f5f5f5;
-    font-weight: bolder;
-    font-size: 125%;
-}
-
 input[type="radio"] {
     margin: 0 15px 0 2px;
 }
@@ -372,7 +350,7 @@ footer {
 footer a {
     text-decoration: none;
     color: #55BCC9;
-    padding: 10px 25px;
+    padding: 25px;
 }
 
 footer div {
@@ -414,6 +392,7 @@ footer div ul li:hover {
     height: 777px;
 }
 
+/*  The below styles the text, border and position for  the confirmation text that is set to display over the image on the confirmation page */
 #confirmation-text {
     width: 75%;
     height: 75%;
@@ -479,17 +458,6 @@ footer div ul li:hover {
     padding: 15px;
 }
 
-#confirmation-footer {
-    height: 150px;
-    text-align: center;
-    background-color: #800080;
-    padding-bottom: 25px;
-    left: 0;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-}
 
 /* Media Queries */
 
@@ -547,8 +515,12 @@ footer div ul li:hover {
 
     #hero-text {
         top: 50px;
-        left: 100px;
+        left: 50px;
         width: 250px;
+    }
+
+    #hero-text h2 {
+        font-size: 150%;
     }
 }
 
@@ -607,7 +579,12 @@ footer div ul li:hover {
         top: 30px;
         left: 15px;
         width: 160px;
-        height: 450px;
+        padding: 5px;
+    }
+
+    #sign-up-link-button {
+        height: 100px;
+        width: 100px;
     }
 }
 
@@ -630,7 +607,7 @@ footer div ul li:hover {
     }
 }
 
-/* For extra extra small screens - 350px wide and down */
+/* For extra extra small screens - 350px wide and down*/
 
 @media screen and (max-width: 350px) {
     #menu li {
@@ -648,19 +625,8 @@ footer div ul li:hover {
         font-size: 150%;
     }
 
-    #hero-text {
-        top: 50px;
-        left: 10px;
-        padding: 5px;
-        height: 350px;
-    }
-
-    #hero-text h2 {
-        font-size: 125%;
-    }
-
-    #confirmation-text h2 {
-        font-size: 150%;
+    footer div ul li:hover {
+        font-size: 165%;
     }
 
     #confirmation-text div a {
@@ -686,10 +652,6 @@ footer div ul li:hover {
 @media screen and (max-width: 300px) {
     #menu li {
         margin: 0 30px 0 15px;
-    }
-
-    footer div ul li:hover {
-        font-size: 165%;
     }
 }
 
