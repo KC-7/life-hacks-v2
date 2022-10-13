@@ -196,7 +196,7 @@ hr.bold {
 /* The below styling dispalys the text in a box with a styled border, semi-opaque background colour, padding and positions it in a set location in front of the hero image */
 #hero-text {
     width: 350px;
-    height: 350px;
+    height: 400px;
     background-color: #323232e6;
     border: 5px solid #800080;
     border-radius: 10%;
@@ -555,6 +555,7 @@ footer div ul li:hover {
         top: 30px;
         left: 15px;
         width: 160px;
+        height: 350px;
         padding: 5px;
     }
 
