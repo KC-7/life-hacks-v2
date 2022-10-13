@@ -541,6 +541,15 @@ footer div ul li:hover {
     .text-input {
         width: 90%;
     }
+
+    #confirmation-text {
+        padding: 30px;
+    }
+
+    #return-button {
+        height: 100px;
+        width: 100px;
+    }
 }
 
 /* For screens from 454px wide and down */
@@ -564,17 +573,17 @@ footer div ul li:hover {
         padding: 5px;
     }
 
-    #sign-up-link-button, #return-button, #hero-link {
-        height: 100px;
-        width: 100px;
-    }
-
     #confirmation-text h2 {
         font-size: 150%;
     }
 
     #confirmation-text h3 {
         font-size: 125%;
+    }
+
+    #sign-up-link-button, #hero-link {
+        height: 100px;
+        width: 100px;
     }
 }
 
