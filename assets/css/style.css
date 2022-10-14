@@ -599,7 +599,8 @@ footer div ul li:hover {
         font-size: 125%;
     }
 
-    #sign-up-link-button, #hero-link {
+    #sign-up-link-button,
+    #hero-link {
         height: 100px;
         width: 100px;
     }

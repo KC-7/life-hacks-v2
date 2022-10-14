@@ -18,6 +18,10 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 - The nav bar has a decorative border around the items when the user hovers over it. The styling is in line with the rest of the website. 
 
+<img style="display: inline; margin: 25px 20%;" src="readme-files/nav-wide.png" alt="Nav Bar Wide Design" width="60%" height="auto" title="Nav Bar Wide Design">
+
+<img style="display: inline; margin: 25px 37.5%;" src="readme-files/nav-small.png" alt="Nav Bar Narrow Design" width="25%" height="auto" title="Nav Bar Narrow Design">
+
 
 ### Hero Image Section
 
@@ -27,6 +31,7 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 - The CSS Validation logo has been included in this section with an active link for anyone who is interested in verifying the site's code. The opacity has been reduced as this is not inteded to be the focal point of the section, more of an easter egg for those interested. 
 
+<img style="display: inline; margin: 25px 20%;" src="readme-files/hero-responsive.png" alt="Hero Image Responsive Design" width="60%" height="auto" title="Hero Image Responsive Design">
 
 ### Life Hack Examples Section
 
@@ -38,6 +43,7 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 - The div is styled with a decorative border, background color etc that is in line with the styling of the site. 
 
+<img style="display: inline; margin: 25px 20%;" src="readme-files/examples-responsive.png" alt="Life Hack Examples Section Responsive Design" width="60%" height="auto" title="Life Hack Examples Section Responsive Design">
 
 ### Why Join Section
 
@@ -47,6 +53,7 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 - The div is styled with a decorative border, background color etc that is in line with the styling of the site. 
 
+<img style="display: inline; margin: 25px 20%;" src="readme-files/why-responsive.png" alt="Why Sign Up Section Responsive Design" width="60%" height="auto" title="Why Sign Up Section Responsive Design">
 
 ### Membership Section
 
@@ -54,6 +61,7 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 - The div is styled with a decorative border, background color etc that is in line with the styling of the site. 
 
+<img style="display: inline; margin: 25px 20%;" src="readme-files/videos-responsive.png" alt="Videos Responsive Design" width="60%" height="auto" title="Videos Responsive Design">
 
 ### Sign Up Section
 
@@ -63,6 +71,7 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 - The text input area is styled to adjust in size on smaller devices.
 
+<img style="display: inline; margin: 25px 20%;" src="readme-files/signup-responsive.png" alt="Sign Up Form Responsive Design" width="60%" height="auto" title="Sign Up Form Responsive Design">
 
 ### Confirmation Page
 
@@ -72,6 +81,7 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 - The confimrmation page includes a nav bar, footer, buttons and background image that are all similar to the main home page. 
 
+<img style="display: inline; margin: 25px 20%;" src="readme-files/confirmation-responsive.png" alt="Confirmation Page Responsive Design" width="60%" height="auto" title="Confirmation Page Responsive Design">
 
 ### Social & App Section
 
@@ -79,6 +89,7 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 - The colours are inversed from the above sections, this is visually appealing and provides a clear distinction between the footer and above sections. 
 
+<img style="display: inline; margin: 25px 20%;" src="readme-files/footer-responsive.png" alt="Footer Responsive Design" width="60%" height="auto" title="Footer Responsive Design">
 
 ## Testing
 ----
@@ -95,6 +106,8 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 - Initially, I uploaded high quality photos and videos. To improve page preformance, I reduced the file sizes accordingly so that they are an optimal size and format for the site. I also experimented by adding the videos to the site by embedding a youtube video using iframes. 
 
+<img style="display: inline; margin: 25px 20%;" src="readme-files/size-warning.png" alt="Video Size Warning" width="60%" height="auto" title="Video Size Warning">
+
 - Initially, I had 6 nav bar links and designed for the nav bar menu items to be stacked verticaly on smaller devices. This meant the clickable area on mobile devices would have been on the small side and potentially be considered as a bug or design flaw. To improve on this, I removed the link to the Social & app links in the footer and moved the "Top of Page" link into a button that is displayed at the bottom right hand side of the site insted. I then restyled the repsonive design for the menu nav bar so that it goes from 4 items in 1 row to 2 items spread over 2 rows for smaller devices. 
 
 - At first, I created a circular div with a link inside of it that was displayed in the hero image voer text. I would have consider this as a bug as it gave the impression that by clicking anywhere inside the circle you would activate the link but the user actually would have had to click on the text to follow the url. To rectify this issue, I implemented a button enclosed in a form that sends the user to the desired location. I then implemented this button type on the confirmation page as well. 
@@ -106,34 +119,59 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 - No issues found in final tests on both the main and confirmation pages.
 
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fkc-7.github.io%2Flife-hacks-v2%2Findex.html" target="_blank" rel="noopener" aria-label="Link to the HTML Validator for Home Page (opens in new tab)">Home Page HTML</a> Validation:
+
+<img style="display: inline; margin: 25px 30%;" src="readme-files/html-index.png" alt="HTML Validator for Home Page" width="40%" height="auto" title="HTML Validator for Home Page">
+
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fkc-7.github.io%2Flife-hacks-v2%2Fconfirmation.html" target="_blank" rel="noopener" aria-label="Link to the HTML Validator for Confirmation Page (opens in new tab)">Confirmation Page HTML</a> Validation:
+
+<img style="display: inline; margin: 25px 30%;" src="readme-files/html-confirmation.png" alt="HTML Validator for Confirmation Page" width="40%" height="auto" title="HTML Validator for Confirmation Page">
 
 #### W3C CSS Validator
 
-- No issues found in final tests on both the main and confirmation pages.
+- No issues found in final tests on both the main and confirmation pages. CSS Validator logos with links have been added to both pages. 
 
-- CSS Validator logos with links have been added to both pages. 
+Home Page:
+
+<a href="http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fkc-7.github.io%2Flife-hacks-v2%2Findex.html&usermedium=all&vextwarning=&warning=1" target="_blank" rel="noopener" aria-label="Link to CSS Validator for Home Page (opens in new tab)"> <img src="assets/images/vcss-blue.webp" alt="Home Page | Valid CSS!"></a>
+
+Confirmation Page: 
+
+<a href="http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fkc-7.github.io%2Flife-hacks-v2%2Fconfirmation.html&usermedium=all&vextwarning=&warning=1" target="_blank" rel="noopener" aria-label="Link to CSS Validator for Home Page (opens in new tab)"> <img src="assets/images/vcss-blue.webp" alt="Confirmation Page | Valid CSS!"></a>
 
 
 #### Lightouse - Performance, Accessibility, Best Practices & SEO
+
+<img style="display: inline; margin: 25px 20%;" src="readme-files/lighthouse-score.png" alt="Lighthouse Score" width="60%" height="auto" title="Lighthouse Score">
 
 - Performance: 98%
 - Accessibility: 100%
 - Best Practices: 100%
 - SEO: 100%
 
-Above results for both the main and confirmation page. The preformance score can vary, above results achieved while using chrome in incognito mode to disable browser extensions. 
+Same results for both the main and confirmation page. The preformance score can vary, above results achieved while using chrome in incognito mode to disable browser extensions. Time was spent on improving all scores by actioning the highlighted oppurtunities. 
+
+<img style="display: inline; margin: 25px 20%;" src="readme-files/lighthouse-index.png" alt="Lighthouse Score for Index Page" width="60%" height="auto" title="Lighthouse Score for Index Page">
+
+<img style="display: inline; margin: 25px 20%;" src="readme-files/lighthouse-confirmation.png" alt="Lighthouse Score for Confirmation Page" width="60%" height="auto" title="Lighthouse Score for Confirmation Page">
+
+
+#### Visual Testing
+
+- Visual testing was carried using <a href="https://ui.dev/amiresponsive" target="_blank" rel="noopener" aria-label="Link to my W3Schools guide to add Top Button (opens in new tab)">Am I Responsive</a> and the Google Chrome Inspect function. 
+
 
 ### Unresolved Bugs & Future Improvements 
 
 #### Unresolved Bugs
 
-- I am not aware of any unresolved bugs at present. 
+- All bugs that I am aware of have been addressed and resolved. 
 
 #### Future Improvements 
 
-- Add javascript to remove the "Top of Page" link button when the user is already at the top of the page. 
+- Add <a href="https://www.w3schools.com/howto/howto_js_scroll_to_top.asp" target="_blank" rel="noopener" aria-label="Link to my W3Schools guide to add Top Button (opens in new tab)">javascript</a> to remove the "Top of Page" link button when the user is already at the top of the page. 
 
-- Implement a "hamburger" styled drop down nav menu for use on smaller devices, especially useful if additional sections are added to the site in future. 
+- Implement a <a href="https://www.w3schools.com/howto/howto_js_topnav_responsive.asp" target="_blank" rel="noopener" aria-label="Link to my W3Schools guide to responsive nave menu (opens in new tab)">responsive nav menu</a> with a "hamburger" styled menue for use on smaller devices, especially useful if additional sections are added to the site in future. 
 
 - Review and improve on grouping styling elements where reasonably practical. 
 
@@ -143,9 +181,9 @@ Above results for both the main and confirmation page. The preformance score can
 
 ### GitHub
 
-- The site was deployed to my Git Hub pages, which can be accessed here. XXXXXXXXXXX INSERT LINK XXXXXXXXXXXXX
+- The site was deployed to my <a href="https://github.com/KC-7/life-hacks-v2" target="_blank" rel="noopener" aria-label="Link to my GitHub Repo (opens in new tab)">GitHub</a>.
 
-- My username on GitHub is KC-7.
+- My username on <a href="https://github.com/KC-7/" target="_blank" rel="noopener" aria-label="Link to my GitHub account (opens in new tab)">GitHub is KC-7</a>.
 
 
 ## Credits
@@ -153,14 +191,17 @@ Above results for both the main and confirmation page. The preformance score can
 
 ### Content
 
-- This site was developed using information learned from the Code Institute alongisde other online resources such as W3Schools. 
+- This site was developed using information learned from the <a href="https://codeinstitute.net/" target="_blank" rel="noopener" aria-label="Link to the Code Institute (opens in new tab)">Code Institute</a> alongisde other online resources such as <a href="https://www.w3schools.com/html/html_favicon.asp" target="_blank" rel="noopener" aria-label="Link to W3Schools (opens in new tab)">W3Schools</a>. 
 
-- The code used to annimate the hero page was learned from Code Insitute's Love Running Project although the values are different to suit the Life Hax website. 
+- The code used to annimate the hero page was learned from the <a href="https://codeinstitute.net/" target="_blank" rel="noopener" aria-label="Link to the Code Institute (opens in new tab)">Code Institute's</a> Love Running Project although the values are different to suit the Life Hax website. 
 
-- The code for the Favicon, the picture in the browser tab, was learned from W3Schools.
+- I learned how to implement the Favicon, the picture in the browser tab, from using <a href="https://www.w3schools.com/html/html_favicon.asp" target="_blank" rel="noopener" aria-label="Link to W3Schools (opens in new tab)">W3Schools</a>.
 
 - The social links, app download sections and the css validator logo all contain links to third party websites. 
 
+- Font added using <a href="https://fonts.google.com/" target="_blank" rel="noopener" aria-label="Link to Google Fonts (opens in new tab)">Google Fonts</a>.
+
+- Icons added using <a href="https://fonts.google.com/" target="_blank" rel="noopener" aria-label="Link to Font Awesome | Free V5 Icons (opens in new tab)">Font Awesome | Free V5 Icons</a>.
 
 ### Media
 
@@ -170,8 +211,5 @@ Above results for both the main and confirmation page. The preformance score can
 
 - The custom site logo was created using <a href="https://www.shopify.com/tools/logo-maker" target="_blank" rel="noopener" aria-label="Link to Shopify's Logo Maker (opens in new tab)">Shopify's Free Logo Maker</a>.
 
-- XXXXXXXXXXXXXXXXXXXXXXXXX Google Fonts https://fonts.google.com/
+- The CSS image was provided by the W3 Jigsaw Validator once all checks were passed. 
 
-- XXXXXXXXXXXXXXXXXXXXXXXXX Font Awesome - Free V5 Icons https://fontawesome.com/v5/search?o=r&m=free
-
-- The CSS image was sprovided by the W3 Jigsaw Validator once all checks were passed. 
