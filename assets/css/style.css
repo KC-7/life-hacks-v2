@@ -140,6 +140,13 @@ hr.bold {
     float: left;
     left: 10px;
     margin: 10px 0;
+    width: 88px;
+    height: 31px;
+}
+
+.validator img {
+    width: 88px;
+    height: 31px;
 }
 
 #top-button {
@@ -178,7 +185,7 @@ hr.bold {
 }
 
 #hero-image {
-    width: 100%;
+    width: 100vw;
     height: 750px;
     background: url(../images/palm-trees.webp) no-repeat bottom;
     background-attachment: fixed;
@@ -195,11 +202,11 @@ hr.bold {
 
 @keyframes hero-zoom {
     from {
-        transform: scale(3);
+        transform: scale(5);
     }
 
     to {
-        transform: scale(1);
+        transform: scale(1.25);
     }
 }
 
@@ -224,7 +231,8 @@ hr.bold {
 }
 
 #hero-logo {
-    width: 70%;
+    width: 200px;
+    height: 66px;
 }
 
 /* Life Hack Examples */
@@ -428,7 +436,7 @@ footer div ul li:hover {
 #confirmation-image {
     background: url("../images/palm-trees.webp") no-repeat bottom;
     background-attachment: fixed;
-    width: 100%;
+    width: 100vw;
     height: 777px;
 }
 
@@ -591,10 +599,14 @@ footer div ul li:hover {
         font-size: 125%;
     }
 
-    #sign-up-link-button,
-    #hero-link {
+    #sign-up-link-button, #hero-link {
         height: 100px;
         width: 100px;
+    }
+
+    #hero-logo {
+        width: 133px;
+        height: 44px;
     }
 }
 

@@ -1,4 +1,5 @@
-![logo](../life-hacks-v2/assets/images/logo_transparent_cropped.webp)
+![Life Hax Logo](assets/images/logo_transparent_cropped.webp "Life Hax Logo")
+
 
 # Life Hax Website
 
