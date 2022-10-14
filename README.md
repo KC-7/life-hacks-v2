@@ -60,6 +60,8 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 - The form is styled to be inline with site however all 4 corners are rounded which is intentionally different than the above sections. 
 
+- The text input area is styled to adjust in size on smaller devices.
+
 
 ### Confirmation Page
 
@@ -67,10 +69,14 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 - The confirmation page is styled similarly to the main page so the experience is pleasant for the site users. 
 
+- The confimrmation page includes a nav bar, footer, buttons and background image that are all similar to the main home page. 
+
 
 ### Social & App Section
 
 - The footer contains 2 divs which provide links for social media and app stores. The divs are displayed in 1 row on larger devices and 1 div per row on smaller devices. 
+
+- The colours are inversed from the above sections, this is visually appealing and provides a clear distinction between the footer and above sections. 
 
 
 ## Testing
@@ -86,12 +92,13 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 - My image and videos were not working when the site was deployed at first as I had used a "/" in front of the file locations. 
 
-- Initially, I uploaded high quality photos and videos. To improve page preformance, I reduced the file sizes accordingly so that they are an optimal size and format for the site. 
+- Initially, I uploaded high quality photos and videos. To improve page preformance, I reduced the file sizes accordingly so that they are an optimal size and format for the site. I also experimented by adding the videos to the site by embedding a youtube video using iframes. 
 
 - Initially, I had 6 nav bar links and designed for the nav bar menu items to be stacked verticaly on smaller devices. This meant the clickable area on mobile devices would have been on the small side and potentially be considered as a bug or design flaw. To improve on this, I removed the link to the Social & app links in the footer and moved the "Top of Page" link into a button that is displayed at the bottom right hand side of the site insted. I then restyled the repsonive design for the menu nav bar so that it goes from 4 items in 1 row to 2 items spread over 2 rows for smaller devices. 
 
-- I was provided with a CSS validator link once the website passed the checks. Initially, this link would not work, I resolved this by using the alternative link they provided. I also removed the trailing slash and hosted the image on github instead of linking to an external resource. I also added a no opener, alt, styling etc. 
+- At first, I created a circular div with a link inside of it that was displayed in the hero image voer text. I would have consider this as a bug as it gave the impression that by clicking anywhere inside the circle you would activate the link but the user actually would have had to click on the text to follow the url. To rectify this issue, I implemented a button enclosed in a form that sends the user to the desired location. I then implemented this button type on the confirmation page as well. 
 
+- I was provided with a CSS validator link once the website passed the checks. Initially, this link would not work, I resolved this by using the alternative link they provided. I also removed the trailing slash and hosted the image on github instead of linking to an external resource. I also added a no opener, alt, styling etc. 
 
 
 #### W3C HTML Validator
@@ -103,6 +110,8 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 - No issues found in final tests on both the main and confirmation pages.
 
+- CSS Validator logos with links have been added to both pages. 
+
 
 #### Lightouse - Performance, Accessibility, Best Practices & SEO
 
@@ -111,7 +120,7 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 - Best Practices: 100%
 - SEO: 100%
 
-Above results for both the main and confirmation page. The preformance score can vary, above result achieved while using chrome in incognito mode to disable browser extensions. 
+Above results for both the main and confirmation page. The preformance score can vary, above results achieved while using chrome in incognito mode to disable browser extensions. 
 
 ### Unresolved Bugs & Future Improvements 
 
@@ -122,6 +131,10 @@ Above results for both the main and confirmation page. The preformance score can
 #### Future Improvements 
 
 - Add javascript to remove the "Top of Page" link button when the user is already at the top of the page. 
+
+- Implement a "hamburger" styled drop down nav menu for use on smaller devices, especially useful if additional sections are added to the site in future. 
+
+- Review and improve on grouping styling elements where reasonably practical. 
 
 
 ## Deployment
@@ -145,6 +158,8 @@ Above results for both the main and confirmation page. The preformance score can
 
 - The code for the Favicon, the picture in the browser tab, was learned from W3Schools.
 
+- The social links, app download sections and the css validator logo all contain links to third party websites. 
+
 
 ### Media
 
@@ -157,3 +172,5 @@ Above results for both the main and confirmation page. The preformance score can
 - XXXXXXXXXXXXXXXXXXXXXXXXX Google Fonts https://fonts.google.com/
 
 - XXXXXXXXXXXXXXXXXXXXXXXXX Font Awesome - Free V5 Icons https://fontawesome.com/v5/search?o=r&m=free
+
+- The CSS image was sprovided by the W3 Jigsaw Validator once all checks were passed. 
