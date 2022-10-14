@@ -22,9 +22,9 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 - The Hero Cover Image is displayed at the top of the page. An image with a transparent background was chosen and a visual annimation effect was also added.
 
-- Cover text is displayed in front of the image which prompts the users to sign up and has an added link to make it convienent for the user to sign up quickly. 
+- Cover text is displayed in front of the image. The cover text includes a the company slogan "Life Changing, Life Hax". The first line is a heading and then the company name "Life Hax" is displayed below it. There is a button that links the user to go straight to the sign up section to encourage them to join straight away with as little time spent scrolling to the section as possible.  
 
-- The CSS Validation logo has been included in this section. 
+- The CSS Validation logo has been included in this section with an active link for anyone who is interested in verifying the site's code. The opacity has been reduced as this is not inteded to be the focal point of the section, more of an easter egg for those interested. 
 
 
 ### Life Hack Examples Section
@@ -35,6 +35,8 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 - The sections is divided into 3 divs which are displayed on a single row on larger screen widths and 1 div per row on smaller screen widths. 
 
+- The div is styled with a decorative border, background color etc that is in line with the styling of the site. 
+
 
 ### Why Join Section
 
@@ -42,15 +44,21 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 - All 4 divs are displayed in one row on large screens, 2 divs per row on medium screens and 1 div per row on small screens.
 
+- The div is styled with a decorative border, background color etc that is in line with the styling of the site. 
+
 
 ### Membership Section
 
-- The what do you get membership section includes 2 headings and 2 videos. The sections are displayed on one row on larger devices and 1 section per row on smaller devices. 
+- The what do you get / membership section includes 2 headings and 2 videos. The sections are displayed on one row on larger devices and 1 section per row on smaller devices.
+
+- The div is styled with a decorative border, background color etc that is in line with the styling of the site. 
 
 
 ### Sign Up Section
 
-- The sign up section includes a form with text input areas for first name, last name, email address and password with each type set correctly. There is then a question with 7 radio options, first 6 are indivual options while the last option is for all so is shown on the row below despite the screen width. The last part of the form is the sumbit button which is styled to entice the user to click the big red button. The form will not allow the user to submit their data unless the required information has been provided. 
+- The sign up section includes a form with text input areas for first name, last name, email address and password with each type set correctly. There is a question with 7 radio options, first 6 are indivual options while the last option is for all so is displayed on the row below regardless of the device's screen width. The last part of the form is the sumbit button which is styled to entice the user to click the big red button when hovered over. The form will not allow the user to submit their data unless the required information has been provided. 
+
+- The form is styled to be inline with site however all 4 corners are rounded which is intentionally different than the above sections. 
 
 
 ### Confirmation Page
@@ -76,11 +84,14 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 ### Bugs & Solved Issues
 
-- My image and videos were not working when the site was deployed as I had used a "/" in front of the file location. 
+- My image and videos were not working when the site was deployed at first as I had used a "/" in front of the file locations. 
 
-- Initially, I uploaded high quality photos and videos. To improve page preformance, I reduced the file sizes accordingly so that they are optiambly sized for the site. 
+- Initially, I uploaded high quality photos and videos. To improve page preformance, I reduced the file sizes accordingly so that they are an optimal size and format for the site. 
 
-- Initially I had designed for the nav bar menu items to be stacked verticaly on smaller devices,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+- Initially, I had 6 nav bar links and designed for the nav bar menu items to be stacked verticaly on smaller devices. This meant the clickable area on mobile devices would have been on the small side and potentially be considered as a bug or design flaw. To improve on this, I removed the link to the Social & app links in the footer and moved the "Top of Page" link into a button that is displayed at the bottom right hand side of the site insted. I then restyled the repsonive design for the menu nav bar so that it goes from 4 items in 1 row to 2 items spread over 2 rows for smaller devices. 
+
+- I was provided with a CSS validator link once the website passed the checks. Initially, this link would not work, I resolved this by using the alternative link they provided. I also removed the trailing slash and hosted the image on github instead of linking to an external resource. I also added a no opener, alt, styling etc. 
+
 
 
 #### W3C HTML Validator
@@ -102,9 +113,15 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 Above results for both the main and confirmation page. The preformance score can vary, above result achieved while using chrome in incognito mode to disable browser extensions. 
 
-### Unresolved Bugs
+### Unresolved Bugs & Future Improvements 
 
-- I was provided w
+#### Unresolved Bugs
+
+- I am not aware of any unresolved bugs at present. 
+
+#### Future Improvements 
+
+- Add javascript to remove the "Top of Page" link button when the user is already at the top of the page. 
 
 
 ## Deployment
@@ -122,7 +139,7 @@ Above results for both the main and confirmation page. The preformance score can
 
 ### Content
 
-- This site was developed using information learned from the Code Institute alongisde other online resources such as W3Schooles. 
+- This site was developed using information learned from the Code Institute alongisde other online resources such as W3Schools. 
 
 - The code used to annimate the hero page was learned from Code Insitute's Love Running Project although the values are different to suit the Life Hax website. 
 
