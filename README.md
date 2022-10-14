@@ -12,15 +12,19 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 
 - The nav bar is located at the top of the screen and shows the site logo on the left hand side and the nav menu on the right hand side. 
 
-- The nav menu includes 4 links which navigate to different sections of the main page. The links in the nav bar on the home page send the user directly to the section id to avoid reloading the page. The links on the confirmation page send you back to the main page. The home page has a link to send you to the top of the page while the confirmation page has an additional link to send you back to the home page. 
+<img style="display: inline; margin: 25px 20%;" src="readme-files/nav-wide.png" alt="Nav Bar Wide Design" width="60%" height="auto" title="Nav Bar Wide Design">
+
+- The nav menu includes 4 links which navigate to different sections of the main page. The links in the nav bar on the home page send the user directly to the section id to avoid reloading the page. The links on the confirmation page send you back to the main page. 
 
 - The nav bar menu has responive styling to work on devices with screen widths as low as 280px. Media queires have been added so that the menu appears aesthetically pleasing on a variety of different screen sizes. On larger screens, it shows all 4 items on 1 row. On smaller devices, such as mobile phones, the menu is displayed in 2 rows with 2 links on each row. 
 
-- The nav bar has a decorative border around the items when the user hovers over it. The styling is in line with the rest of the website. 
-
-<img style="display: inline; margin: 25px 20%;" src="readme-files/nav-wide.png" alt="Nav Bar Wide Design" width="60%" height="auto" title="Nav Bar Wide Design">
-
 <img style="display: inline; margin: 25px 37.5%;" src="readme-files/nav-small.png" alt="Nav Bar Narrow Design" width="25%" height="auto" title="Nav Bar Narrow Design">
+
+- The home page has a link button at the bottom of the screen to send you back to the top of the page, this feature was not required on the confirmation page. 
+
+<img style="display: inline; margin: 25px 46%;" src="readme-files/top-button.png" alt="Top of Page Button" width="8%" height="auto" title="Top of Page Button">
+
+- The nav bar has a decorative border around the items when the user hovers over it. The styling is in line with the rest of the website. 
 
 
 ### Hero Image Section
