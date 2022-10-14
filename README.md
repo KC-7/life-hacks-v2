@@ -100,11 +100,11 @@ This website is for an online life hacks company called, Life Hax. Life Hax are 
 - Best Practices: 100%
 - SEO: 100%
 
-Above results for both the main and confirmation page. The preformance score can vary. 
+Above results for both the main and confirmation page. The preformance score can vary, above result achieved while using chrome in incognito mode to disable browser extensions. 
 
 ### Unresolved Bugs
 
-- The intial tests were carried out on XXXX. 
+- I was provided w
 
 
 ## Deployment
