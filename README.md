@@ -1,4 +1,4 @@
-![Life Hax Logo](assets/images/logo_transparent_cropped.webp "Life Hax Logo")
+<img style="display: inline;" src="readme-files/logo-header-narrow.png " alt="Life Hax Logo" width="100%" height="auto" title="Life Hax Logo">
 
 
 # Life Hax Website
