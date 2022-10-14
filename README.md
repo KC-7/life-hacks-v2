@@ -5,6 +5,9 @@
 
 This website is for an online life hacks company called, Life Hax. Life Hax are currently offering free sign up to new members. Membership gives you access to their mailing list and mobile app. All users will receive access to content designed to save them time and money. This site is mainly targeted at male and female users between the ages of 18 to 60 years old. Once the website has built up a user base, they will add advertisments to generate site revenue. Existing members will remain ad free however new members who do not wish to see ads will need to sign up for a paid membership. The site will aim to provide tailored content for users based on their interests as the site grows. 
 
+<img style="display: inline; margin: 25px 20%;" src="readme-files/home-page.png" alt="View of Home Page" width="60%" height="auto" title="View of Home Page">
+
+
 ## Features
 ----
 
