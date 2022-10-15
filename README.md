@@ -171,7 +171,26 @@ Same results for both the main and confirmation page. The performance score can 
 
 #### Visual Testing
 
-- Visual testing was carried using <a href="https://ui.dev/amiresponsive" target="_blank" rel="noopener" aria-label="Link to my W3Schools guide to add Top Button (opens in new tab)">Am I Responsive</a> and the Google Chrome Inspect function. 
+- Visual testing was mainly carried out using the Google Chrome Inspect function. I tested all sections of the site on a combination of different screen sizes. 
+
+- Visual testing was also carried out using <a href="https://ui.dev/amiresponsive" target="_blank" rel="noopener" aria-label="Link to Am I Responsive Website (opens in new tab)">Am I Responsive</a>. The resposive images above were taken from this website. 
+
+- I carried out visual testing on the following device sizes: 
+    - iPhone SE: 375 x 667 px
+    - iPhone XR: 414 x 896 px
+    - iPhone 12 Pro 390 x 844 px
+    - Pixel 5: 393 x 851 px
+    - Samsung Galaxy S8+: 360 x 740 px
+    - Samsung Galaxy S10: 360 x 760 px
+    - Samsung Galaxy S20 Ultra: 412 x 915 px
+    - iPad Air: 820 x 1180 px
+    - iPad Mini: 768 x 1024 px
+    - Surface Pro 7: 912 x 1368 px
+    - Galaxy Fold: 280 x 653 px - *Note, this is the smallest device size the site has been designed to operate on*
+    - Nest Hub: 1024 x 600 px
+    - Nest Hub Max: 1280 x 800 px
+    - Dell 24" Monitor: 1920 x 1200 px
+    - Lenovo Yoga 910: 3840 x 2160 px
 
 
 ### Unresolved Bugs & Future Improvements 
@@ -231,6 +250,8 @@ Same results for both the main and confirmation page. The performance score can 
 - Font added using <a href="https://fonts.google.com/" target="_blank" rel="noopener" aria-label="Link to Google Fonts (opens in new tab)">Google Fonts</a>.
 
 - Icons added using <a href="https://fonts.google.com/" target="_blank" rel="noopener" aria-label="Link to Font Awesome | Free V5 Icons (opens in new tab)">Font Awesome | Free V5 Icons</a>.
+
+- The resposive images in the README file above were taken from <a href="https://ui.dev/amiresponsive" target="_blank" rel="noopener" aria-label="Link to Am I Responsive Website (opens in new tab)">Am I Responsive</a>.
 
 ### Media
 
