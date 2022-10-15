@@ -16,20 +16,20 @@ This website is for an online life hacks company called Life Hax. Life Hax are c
 
 <img style="display: inline; margin: 25px 20%;" src="readme-files/home-page.png" alt="View of Home Page" width="60%" height="auto" title="View of Home Page">
 
-The site is intending to attract B2C customers and has been designed in a simple and unique manner that encourages the user to sign up. The website is easy to navigate by using a nav bar and floating top of screen button alongside the links and buttons within the website. The colours and styling were applied in a consitent manner to the site so that is visualy appealing and uniform. Potential customers in our target audience where interviewed during the planning stages to find out information on what would make a good experience and encourage them to sign up. Competiting sites were reviewed to find out what works and what can be improved on. 
+The site is intending to attract B2C customers and has been designed in a simple and unique manner that encourages the user to sign up. The website is easy to navigate by using a nav bar and floating top of screen button alongside the links and buttons within the website. The colours and styling were applied in a consistent manner to the site so that is visually appealing and uniform. Potential customers in our target audience where interviewed during the planning stages to find out information on what would make a good experience and encourage them to sign up. Competing sites were reviewed to find out what works and what can be improved on. 
 
 Features to implement on the site were reviewed by ranking their importance against their feasibility to implement, this allowed me to focus on what would be most important for the end user and the success of the site. I also made some preliminary site mockup drawings in advance of developing. I got inspiration on colours by checking out sites such as <a href="https://www.canva.com/colors/" target="_blank" rel="noopener" aria-label="Link to the Canva's colour page (opens in new tab)">Canva</a>.
 
 ### User Stories
 
-With increased inflantion globally and long working hours, its only normal that adults will seek out ways to save time and money and the best way to do this is by signing up to the Life Hax website. The site aims to provides high quality, custom content that is tailored for the user based on their interests. The site meets the following requirments for visiting users: 
+With increased inflation globally and long working hours, its only normal that adults will seek out ways to save time and money and the best way to do this is by signing up to the Life Hax website. The site aims to provide high quality, custom content that is tailored for the user based on their interests. The site meets the following requirements for visiting users: 
 
 - Easy to navigate, simple yet attractive in design and easy to follow to create a pleasant user experience. 
 - Provides a sign up form with as little clicks as possible for the user to direct to and complete. 
 - Shows examples of Life Hacks with images. 
 - Provides rational for why you should sign up in easy to follow text format. 
 - Provides details of what you will get when you become a member by signing up to become a member. 
-- Provides links to navigate to the webistes social channles and app download links. 
+- Provides links to navigate to the websites social channels and app download links. 
 - Website should work on a large range of devices with different screen dimensions, the site should respond appropriately to each. 
 
 
@@ -104,7 +104,7 @@ With increased inflantion globally and long working hours, its only normal that 
 
 - The text input area is styled to adjust in size on smaller devices.
 
-- The radio answers are designed to be distirbuted evenly onto multiple rows on smaller devices. 
+- The radio answers are designed to be distributed evenly onto multiple rows on smaller devices. 
 
 <img style="display: inline; margin: 25px 20%;" src="readme-files/signup-responsive-updated.png" alt="Sign Up Form Responsive Design" width="60%" height="auto" title="Sign Up Form Responsive Design">
 
@@ -155,7 +155,7 @@ The following technologies were used on this site:
 
 ### Initial Testing
 
-- The initial tests were carried out by utilising the inspect feature on the Google Chrome web browser on my laptop. I also checked how the website responded on my mobile phone. I checked different broswers such as Goggle Chrome, Brave Browser, Mozilla Firefox and Microsoft Edge. I ran initial (W3C & Jigsaw) validation tests for both the HTML and CSS alongside Lighthouse Reports on Chrome. I addressed and resolved any of the issues that arose. 
+- The initial tests were carried out by utilising the inspect feature on the Google Chrome web browser on my laptop. I also checked how the website responded on my mobile phone. I checked different browsers such as Goggle Chrome, Brave Browser, Mozilla Firefox and Microsoft Edge. I ran initial (W3C & Jigsaw) validation tests for both the HTML and CSS alongside Lighthouse Reports on Chrome. I addressed and resolved any of the issues that arose. 
 
 ### Test Cases to ensure site performs as intended
 
@@ -173,18 +173,18 @@ The following technologies were used on this site:
 
 - The Why Join section was checked to ensure that the styling, hover features, icons, link to sign up and images are all working as intended. 
 
-- The Membership section was tested to ensure that the divs are styled correctly, icons are working, videos displayed correctly, playing automaticaly, in a continuous loop and in good quality.
+- The Membership section was tested to ensure that the divs are styled correctly, icons are working, videos displayed correctly, playing automatically, in a continuous loop and in good quality.
 
 - The Sign Up section was checked to ensure the following: 
-    - The form is displayed with the correct syling. 
+    - The form is displayed with the correct styling. 
     - Both the first and last name are required and show in the input as standard test. 
-    - The email address field is required and set correctly (i.e. required input requires an @ and .)
+    - The email address field is required and set correctly (i.e. required input requires an "@" and ".")
     - The password section is required and hides the entered text. 
     - The what are you most interest in question is displayed correctly and one answer is required. 
     - The all of the above radio answer is displayed below the first 6 options. 
     - The Sign Up button is displayed in the correct style and that the hover feature is working. It must take the user to the confirmation page when the required data on form as been completed by the user. 
 
-- The Footer section was tested to ensure all links are working, open in seperate page, and that the styling is set correctly for the different background colour, icons and text.
+- The Footer section was tested to ensure all links are working, open in separate page, and that the styling is set correctly for the different background colour, icons and text.
 
 - The Confirmation page was tested to ensure the following: 
     - The content is displayed in front of the hero image.
@@ -257,7 +257,7 @@ Same results for both the main and confirmation page. The performance score can 
 
 - Visual testing was mainly carried out using the Google Chrome Inspect function. I tested all sections of the site on a combination of different screen sizes. 
 
-- Visual testing was also carried out using <a href="https://ui.dev/amiresponsive" target="_blank" rel="noopener" aria-label="Link to Am I Responsive Website (opens in new tab)">Am I Responsive</a>. The resposive images above were taken from this website. The site provides simulations in the following sizes: 
+- Visual testing was also carried out using <a href="https://ui.dev/amiresponsive" target="_blank" rel="noopener" aria-label="Link to Am I Responsive Website (opens in new tab)">Am I Responsive</a>. The responsive images above were taken from this website. The site provides simulations in the following sizes: 
     - Desktop: 1600 x 992 px - scaled down to scale (0.3181)
     - Laptop: 1280 x 802 px - scaled down to scale (0.277)
     - Tablet: 768 x 1024 px - scaled down to scale (0.219)
@@ -294,7 +294,7 @@ Same results for both the main and confirmation page. The performance score can 
 
 - Implement a <a href="https://www.w3schools.com/howto/howto_js_topnav_responsive.asp" target="_blank" rel="noopener" aria-label="Link to my W3Schools guide to responsive nav menu (opens in new tab)">responsive nav menu</a> with a "hamburger" styled menu for use on smaller devices, especially useful if additional sections are added to the site in future. 
 
-- Consider relocating the cover text over the hero text on the home page to the right hand side of the screen so the sign up link is closer to the users thumb on mobile devices if right handed. This will only work once the Top of Page Button has been removed when the user is at the top of the page or it would interfer with the content - see above point. 
+- Consider relocating the cover text over the hero text on the home page to the right hand side of the screen so the sign up link is closer to the users thumb on mobile devices if right handed. This will only work once the Top of Page Button has been removed when the user is at the top of the page or it would interfere with the content - see above point. 
 
 - Currently the sign up form does not send any data or create an account for user, this will need to be set up in future. 
 
@@ -350,7 +350,7 @@ Same results for both the main and confirmation page. The performance score can 
 
 - The code used to animate the hero page was learned from the <a href="https://codeinstitute.net/" target="_blank" rel="noopener" aria-label="Link to the Code Institute (opens in new tab)">Code Institute's</a> Love Running Project although the values are different to suit the Life Hax website. 
 
-- I learned how to implement the Favicon, the picture in the browser tab, from using <a href="https://www.w3schools.com/html/html_favicon.asp" target="_blank" rel="noopener" aria-label="Link to W3Schools' Favicon Guide (opens in new tab)">W3Schools</a> guide on implemeting this feature.
+- I learned how to implement the Favicon, the picture in the browser tab, from using <a href="https://www.w3schools.com/html/html_favicon.asp" target="_blank" rel="noopener" aria-label="Link to W3Schools' Favicon Guide (opens in new tab)">W3Schools</a> guide on implementing this feature.
 
 - I learned how to implement the smooth scroll function, the effect that scrolls down to the area being navigated to instead of jumping to it, from using <a href="https://www.w3schools.com/howto/howto_css_smooth_scroll.asp" target="_blank" rel="noopener" aria-label="Link to W3Schools' Smooth Scroll Guide (opens in new tab)">W3Schools</a> guide on implementing this feature.
 
@@ -379,5 +379,3 @@ Same results for both the main and confirmation page. The performance score can 
 - The images were resized using <a href="https://www.adobe.com/express/feature/image/resize" target="_blank" rel="noopener" aria-label="Link to Adobe's Online Image Resizer (opens in new tab)">Adobe's Online Image Resizer </a>.
 
 - I got inspiration on colours by checking out sites such as <a href="https://www.canva.com/colors/" target="_blank" rel="noopener" aria-label="Link to the Canva's colour page (opens in new tab)">Canva</a>.
-
-
