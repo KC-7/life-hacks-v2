@@ -13,7 +13,7 @@
 
 /* Main Structure - Body, Headings, Paragraphs, Logo & HR */
 
-/* Below provided by W3Schools - How to create smooth scroll - it provides a smooth scrolling effect when linking to areas on the page */
+/* Below provided by W3Schools - How to create smooth scroll - it provides a smooth scrolling effect when navigating to areas on the page */
 html {
     scroll-behavior: smooth;
 }
@@ -196,7 +196,7 @@ hr.bold {
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
-quest
+
 /* Creates the level of zoom for the hero image */
 
 @keyframes hero-zoom {
@@ -233,6 +233,7 @@ quest
     width: 200px;
     height: 66px;
 }
+
 
 /* Life Hack Examples */
 
@@ -369,7 +370,8 @@ quest
 }
 
 /* The below code relating to the question allows for the first 6 answers to be displayed seperatly to the all answer. There is repsonsive styling based on this further down */
-#question, #answer-all {
+#question,
+#answer-all {
     font-weight: normal;
 }
 
@@ -650,7 +652,7 @@ footer div ul li:hover {
     #question div {
         width: 100%;
     }
-    
+
     #confirmation-text h2 {
         font-size: 125%;
     }
@@ -658,11 +660,7 @@ footer div ul li:hover {
     #confirmation-text h3 {
         font-size: 100%;
     }
-
-    
-
-    
 }
 
 
-/* Note, site has been styled to respond to devices with a screen width as low as 280 px wide, styling issues may occur below this wscreen width */
+/* Note, site has been styled to respond to devices with a screen width as low as 280 px wide, styling issues may occur below this screen width */
