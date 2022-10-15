@@ -245,43 +245,46 @@
                 <input type="password" name="login_password" id="password" class="text-input" required>
             </div>
 
-            <div id="question">
-                <!-- Spans are wrapped around the radio options in this div to allow a hover css rule to be added -->
+            <div>
                 <h4>What are you most interested in? <i class="far fa-question-circle"></i></h4>
-                <span>
+            </div>
+
+            <div id="question"> <!-- Divs are wrapped around the radio options in this div to allow a hover css rule to be added, the answer for all is in a div below -->
+                <div>
                     <label for="cooking">Cooking Tips</label>
                     <input name="preference" id="cooking" value="cooking" type="radio" class="sign-up-radio" required>
-                </span>
-                <span>
+                </div>
+                <div>
                     <label for="cleaning">Cleaning Tricks</label>
                     <input name="preference" id="cleaning" value="cleaning" type="radio">
-                </span>
-                <span>
+                </div>
+                <div>
                     <label for="time">Saving Time</label>
                     <input name="preference" id="time" value="time" type="radio">
-                </span>
-                <span>
+                </div>
+                <div>
                     <label for="money">Saving Money</label>
                     <input name="preference" id="money" value="money" type="radio">
-                </span>
-                <span>
+                </div>
+                <div>
                     <label for="computer-hacks">Computer Hacks</label>
                     <input name="preference" id="computer-hacks" value="computer-hacks" type="radio">
-                </span>
-                <span>
+                </div>
+                <div>
                     <label for="diy-hacks">DIY Hacks</label>
                     <input name="preference" id="diy-hacks" value="diy-hacks" type="radio">
-                </span>
-                <br>
-                <span>
-                    <label for="all">All of the above, I can't decide on just one!</label>
-                    <input name="preference" id="all" value="all" type="radio">
-                </span>
-
+                </div>
             </div>
+
+            <div id="answer-all">
+                <label for="all">All of the above!</label>
+                <input name="preference" id="all" value="all" type="radio">
+            </div>
+
             <div>
                 <input type="submit" class="circle-button" id="sign-up-button" value="Let's get started!">
             </div>
+            
         </form>
 
         <hr class="bold">

@@ -13,6 +13,11 @@
 
 /* Main Structure - Body, Headings, Paragraphs, Logo & HR */
 
+/* Below provided by W3Schools - How to create smooth scroll - it provides a smooth scrolling effect when linking to areas on the page */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Tahoma, Verdana, sans-serif;
     color: #000000;
@@ -99,13 +104,6 @@ hr.bold {
     padding: 5px;
 }
 
-/* Not currently in use. Can be used to highlight active page on sites with multiple pages */
-.active {
-    border: 2px solid #97CAEF;
-    border-top-left-radius: 20%;
-    border-bottom-right-radius: 20%;
-    padding: 5px;
-}
 
 /* Button Styling */
 
@@ -132,7 +130,7 @@ hr.bold {
     font-size: 125%;
 }
 
-/* The validator displays the CSS validation link, it is displayed at the bottom left of each of the divs it is located within */
+/* The validator displays the CSS validation link, it is displayed at the bottom left of each of the divs it is located within. Reduced opacity. */
 .validator {
     position: absolute;
     opacity: 0.5;
@@ -149,6 +147,7 @@ hr.bold {
     height: 31px;
 }
 
+/* The top button is fixed in place at the bottom right hand of the screen, its sends the user back to the top of the page */
 #top-button {
     position: fixed;
     bottom: 10px;
@@ -369,12 +368,20 @@ hr.bold {
     border-color: #800080;
 }
 
-#question {
+/* The below code relating to the question allows for the first 6 answers to be displayed seperatly to the all answer. There is repsonsive styling based on this further down */
+#question, #answer-all {
     font-weight: normal;
 }
 
-#question span:hover {
+#question div {
+    width: 16.666%;
+    float: left;
+}
+
+#question div:hover,
+#answer-all:hover {
     font-weight: bold;
+
 }
 
 input[type="radio"] {
@@ -493,6 +500,11 @@ footer div ul li:hover {
         width: 50%;
     }
 
+    #question div {
+        width: 33.3%;
+        float: left;
+    }
+
     footer div {
         width: 100%;
         font-size: 75%;
@@ -558,6 +570,11 @@ footer div ul li:hover {
 
     .text-input {
         width: 90%;
+    }
+
+    #question div {
+        width: 50%;
+        float: left;
     }
 
     #confirmation-text {
