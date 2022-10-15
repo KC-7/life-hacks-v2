@@ -155,7 +155,7 @@ The following technologies were used on this site:
 
 ### Initial Testing
 
-- The initial tests were carried out by utilising the inspect feature on the Google Chrome web browser on my laptop. I also checked how the website responded on my mobile phone. I ran initial (W3C) validation tests for both the HTML and CSS alongside Lighthouse Reports on Chrome. I addressed and resolved any of the issues that arose. 
+- The initial tests were carried out by utilising the inspect feature on the Google Chrome web browser on my laptop. I also checked how the website responded on my mobile phone. I checked different broswers such as Goggle Chrome, Brave Browser, Mozilla Firefox and Microsoft Edge. I ran initial (W3C & Jigsaw) validation tests for both the HTML and CSS alongside Lighthouse Reports on Chrome. I addressed and resolved any of the issues that arose. 
 
 ### Test Cases to ensure site performs as intended
 
