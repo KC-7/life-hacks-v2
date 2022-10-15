@@ -453,7 +453,7 @@ footer div ul li:hover {
     height: 777px;
 }
 
-/*  The below styles the text, border and position for  the confirmation text that is set to display over the image on the confirmation page */
+/*  The below styles the text, border and position for the confirmation text so that it is set to display over the image on the confirmation page */
 #confirmation-text {
     width: 75%;
     height: 75%;
@@ -510,6 +510,7 @@ footer div ul li:hover {
         width: 33.3%;
     }
 
+    /* Below stacks the Social Links on top of the App Links on devices below 104px  instead of displaying them side by side */
     footer div {
         width: 100%;
         font-size: 75%;
@@ -604,6 +605,7 @@ footer div ul li:hover {
         width: 25%;
     }
 
+    /* Adjusts the positioning and padding for the hero text area */
     #hero-text {
         top: 30px;
         left: 15px;
@@ -645,7 +647,7 @@ footer div ul li:hover {
     }
 }
 
-/* For screens from 340px wide and down to 280px*/
+/* For screens from 340px wide and down*/
 
 @media screen and (max-width: 340px) {
 
@@ -666,5 +668,4 @@ footer div ul li:hover {
     }
 }
 
-
-/* Note, site has been styled to respond to devices with a screen width as low as 280 px wide, styling issues may occur below this screen width */
+/* Note, site has been styled to respond to devices with a screen width as low as 280 px wide, example Galazy Fold, styling issues may occur below this screen width */
