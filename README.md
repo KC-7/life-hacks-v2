@@ -7,7 +7,10 @@
 Link to home page <a href="https://kc-7.github.io/life-hacks-v2/index.html" target="_blank" rel="noopener" aria-label="Link to the Life Hax Home Page (opens in new tab)">here</a> or click on the header above. 
 
 
-## Design
+## Design & User Experience 
+----
+
+### Design 
 
 This website is for an online life hacks company called Life Hax. Life Hax are currently offering free sign up to new members. Membership gives you access to their mailing list and mobile app. All users will receive access to content designed to save them time and money. This site is mainly targeted at male and female users between the ages of 18 and 65 years old. Once the website has built up a user base, they will add advertisements to generate site revenue. Existing members will remain ad free however new members who do not wish to see ads will need to sign up for a paid membership. The site will aim to provide tailored content for users in future based on their interests as the site grows. 
 
@@ -16,6 +19,18 @@ This website is for an online life hacks company called Life Hax. Life Hax are c
 The site is intending to attract B2C customers and has been designed in a simple and unique manner that encourages the user to sign up. The website is easy to navigate by using a nav bar and floating top of screen button alongside the links and buttons within the website. The colours and styling were applied in a consitent manner to the site so that is visualy appealing and uniform. Potential customers in our target audience where interviewed during the planning stages to find out information on what would make a good experience and encourage them to sign up. Competiting sites were reviewed to find out what works and what can be improved on. 
 
 Features to implement on the site were reviewed by ranking their importance against their feasibility to implement, this allowed me to focus on what would be most important for the end user and the success of the site. I also made some preliminary site mockup drawings in advance of developing. I got inspiration on colours by checking out sites such as <a href="https://www.canva.com/colors/" target="_blank" rel="noopener" aria-label="Link to the Canva's colour page (opens in new tab)">Canva</a>.
+
+### User Stories
+
+With increased inflantion globally and long working hours, its only normal that adults will seek out ways to save time and money and the best way to do this is by signing up to the Life Hax website. The site aims to provides high quality, custom content that is tailored for the user based on their interests. The site meets the following requirments for visiting users: 
+
+- Easy to navigate, simple yet attractive in design and easy to follow to create a pleasant user experience. 
+- Provides a sign up form with as little clicks as possible for the user to direct to and complete. 
+- Shows examples of Life Hacks with images. 
+- Provides rational for why you should sign up in easy to follow text format. 
+- Provides details of what you will get when you become a member by signing up to become a member. 
+- Provides links to navigate to the webistes social channles and app download links. 
+- Website should work on a large range of devices with different screen dimensions, the site should respond appropriately to each. 
 
 
 ## Features
