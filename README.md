@@ -332,6 +332,8 @@ The same results were achieved for both the main and confirmation page. The perf
 
 - The site was deployed to <a href="https://github.com/KC-7/life-hacks-v2" target="_blank" rel="noopener" aria-label="Link to my GitHub Repo (opens in new tab)">GitHub</a> pages. This was achieved by navigating to settings from the GitHub Repository, selecting GitHub Pages, changing the source to main branch, saving and then publishing. 
 
+<img style="display: inline; margin: 25px 20%;" src="readme-files/github-pages.png" alt="GitHub Pages in Settings" width="30%" height="auto" title="GitHub Pages in Settings">
+
 - My username on GitHub is <a href="https://github.com/KC-7/" target="_blank" rel="noopener" aria-label="Link to my GitHub account (opens in new tab)">KC-7</a>.
 
 - URL Links to the site below: 
