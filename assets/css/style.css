@@ -196,7 +196,7 @@ hr.bold {
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
-
+quest
 /* Creates the level of zoom for the hero image */
 
 @keyframes hero-zoom {
@@ -385,7 +385,7 @@ hr.bold {
 }
 
 input[type="radio"] {
-    margin: 0 15px 0 2px;
+    margin: 0 5px 0 2px;
 }
 
 
@@ -502,7 +502,6 @@ footer div ul li:hover {
 
     #question div {
         width: 33.3%;
-        float: left;
     }
 
     footer div {
@@ -574,7 +573,6 @@ footer div ul li:hover {
 
     #question div {
         width: 50%;
-        float: left;
     }
 
     #confirmation-text {
@@ -645,6 +643,14 @@ footer div ul li:hover {
 
 @media screen and (max-width: 340px) {
 
+    #menu {
+        font-size: 75%;
+    }
+
+    #question div {
+        width: 100%;
+    }
+    
     #confirmation-text h2 {
         font-size: 125%;
     }
@@ -653,9 +659,9 @@ footer div ul li:hover {
         font-size: 100%;
     }
 
-    #menu {
-        font-size: 75%;
-    }
+    
+
+    
 }
 
 
