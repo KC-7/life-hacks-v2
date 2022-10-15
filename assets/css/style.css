@@ -107,6 +107,7 @@ hr.bold {
 
 /* Button Styling */
 
+/* The below styles the size, colour, font, background and border for the circle button. There is an additional hover feature below it to adjust the styling. */
 .circle-button {
     height: 175px;
     width: 175px;
@@ -311,14 +312,14 @@ hr.bold {
 }
 
 
-/* About Us */
+/* Membership Video Section */
 
-#about-examples {
+#membership-examples {
     width: 100%;
 }
 
 /* The belows styles the divs into 4 sections with custom border and padding */
-#about-examples div {
+#membership-examples div {
     width: 50%;
     background-color: #97CAEF;
     border: 20px solid #55BCC9;
@@ -332,7 +333,7 @@ hr.bold {
     margin-bottom: 50px;
 }
 
-.about-videos {
+.membership-videos {
     max-width: 80%;
     max-height: 600px;
     margin-top: 15px;
@@ -346,6 +347,7 @@ hr.bold {
     font-weight: bold;
 }
 
+/* The below stlyes the sign up form text area, border and background */
 #sign-up-form {
     width: 90%;
     border: 2px solid #55BCC9;
@@ -357,6 +359,7 @@ hr.bold {
     margin-bottom: 60px;
 }
 
+/* The below styles the background colour, border and sizing for the text input field in the form. There is an additional hover function added below it */
 .text-input {
     background-color: #f5f5f5;
     height: 30px;
@@ -369,7 +372,7 @@ hr.bold {
     border-color: #800080;
 }
 
-/* The below code relating to the question allows for the first 6 answers to be displayed seperatly to the all answer. There is repsonsive styling based on this further down */
+/* The following relating to the question allows for the first 6 answers to be displayed seperatly to the all answer. There is additional repsonsive styling based on this further down */
 #question,
 #answer-all {
     font-weight: normal;
@@ -393,6 +396,7 @@ input[type="radio"] {
 
 /* Footer */
 
+/* The below styles the colour, size, positioning and spacing for the footer */
 footer {
     height: 150px;
     text-align: center;
@@ -546,7 +550,7 @@ footer div ul li:hover {
         font-size: 150%;
     }
 
-    #about-examples div {
+    #membership-examples div {
         width: 100%;
     }
 }
@@ -608,6 +612,11 @@ footer div ul li:hover {
         padding: 5px;
     }
 
+    #hero-logo {
+        width: 133px;
+        height: 44px;
+    }
+
     #confirmation-text h2 {
         font-size: 150%;
     }
@@ -620,11 +629,6 @@ footer div ul li:hover {
     #hero-link {
         height: 100px;
         width: 100px;
-    }
-
-    #hero-logo {
-        width: 133px;
-        height: 44px;
     }
 }
 
