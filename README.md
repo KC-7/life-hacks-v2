@@ -4,7 +4,7 @@
 
 # Life Hax Website
 
-Link to home page <a href="https://kc-7.github.io/life-hacks-v2/index.html" target="_blank" rel="noopener" aria-label="Link to the Life Hax Home Page (opens in new tab)">here</a> or click on the header above. 
+Link to the home page <a href="https://kc-7.github.io/life-hacks-v2/index.html" target="_blank" rel="noopener" aria-label="Link to the Life Hax Home Page (opens in new tab)">here</a> or click on the header above. 
 
 
 ## Design & User Experience 
@@ -28,9 +28,9 @@ With increased inflation globally and long working hours, its only normal that a
 - Provides a sign up form with as little clicks as possible for the user to direct to and complete. 
 - Shows examples of Life Hacks with images. 
 - Provides rational for why you should sign up in easy to follow text format. 
-- Provides details of what you will get when you become a member by signing up to become a member. 
-- Provides links to navigate to the websites social channels and app download links. 
-- Website should work on a large range of devices with different screen dimensions, the site should respond appropriately to each. 
+- Provides details of what you will get when you sign up to become a member and videos to promote same. 
+- Provides links to navigate to Life Hax's social channels and app download links. 
+- Website works on a large range of devices with different screen dimensions, the site responds appropriately to each size. 
 
 
 ## Features
@@ -58,23 +58,23 @@ With increased inflation globally and long working hours, its only normal that a
 
 ### Hero Image Section
 
-- The Hero Cover Image is displayed at the top of the page. An image with a transparent background was chosen and a visual animation effect was also added.
+- The Hero Cover Image is displayed at the top of the page. An image with a transparent background was chosen and a visual zoom animation effect was also added to this.
 
-- Cover text is displayed in front of the image. The cover text includes the company slogan "Life Changing, Life Hax". The first line is a heading and then the company name "Life Hax" is displayed below it. There is a button that links the user to go straight to the sign up section to encourage them to join straight away with as little time spent scrolling to the section as possible.  
+- Cover text is displayed in front of the image. The cover text includes the company slogan "Life Changing, Life Hax". The first line is a heading and then the company name "Life Hax" is displayed below it as an image. There is a button that links the user to go straight to the sign up section to encourage them to join straight away with as little time spent scrolling to the section as possible.  
 
-- The CSS Validation logo has been included in this section with an active link for anyone who is interested in verifying the site's code. The opacity has been reduced as this is not intended to be the focal point of the section.
+- The CSS Validation logo has been added to the bottom left of this section with an active link for anyone who is interested in verifying the site's code is working. The opacity has been reduced as this is not intended to be the focal point of the section.
 
 <img style="display: inline; margin: 25px 20%;" src="readme-files/hero-responsive.png" alt="Hero Image Responsive Design" width="60%" height="auto" title="Hero Image Responsive Design">
 
 ### Life Hack Examples Section
 
-- The Life Hack Examples section includes 3 divs to highlight life hacks, three topics where chosen with examples listed below each heading. 
+- The Life Hack Examples section includes 3 divs to highlight different life hacks, three topics where chosen with examples listed below each heading. 
 
 - A picture is included in each div. It is styled to be displayed in a circular border. 
 
-- The sections is divided into 3 divs which are displayed on a single row on larger screen widths and 1 div per row on smaller screen widths. 
+- The sections are divided into 3 divs which are displayed on a single row on larger screen widths and 1 div per row on smaller screen widths. 
 
-- The div is styled with a decorative border, background colour etc. that is in line with the styling of the site. 
+- The divs are styled with a decorative border, background colour etc. that is in line with the styling used in the rest of the website. 
 
 <img style="display: inline; margin: 25px 20%;" src="readme-files/examples-responsive.png" alt="Life Hack Examples Section Responsive Design" width="60%" height="auto" title="Life Hack Examples Section Responsive Design">
 
@@ -84,7 +84,7 @@ With increased inflation globally and long working hours, its only normal that a
 
 - All 4 divs are displayed in one row on large screens, 2 divs per row on medium screens and 1 div per row on small screens.
 
-- The div is styled with a decorative border, background colur etc. that is in line with the styling of the site. 
+- The divs are styled with a decorative border, background colour etc. that is in line with the styling used in the rest of the website. 
 
 <img style="display: inline; margin: 25px 20%;" src="readme-files/why-responsive.png" alt="Why Sign Up Section Responsive Design" width="60%" height="auto" title="Why Sign Up Section Responsive Design">
 
@@ -92,13 +92,13 @@ With increased inflation globally and long working hours, its only normal that a
 
 - The membership section includes 2 headings and 2 videos. The sections are displayed on 1 row on larger devices and 1 section per row on smaller devices.
 
-- The div is styled with a decorative border, background colour etc. that is in line with the styling of the site. 
+- The divs are styled with a decorative border, background colour etc. that is in line with the styling used in the rest of the website. 
 
 <img style="display: inline; margin: 25px 20%;" src="readme-files/videos-responsive.png" alt="Videos Responsive Design" width="60%" height="auto" title="Videos Responsive Design">
 
 ### Sign Up Section
 
-- The sign up section includes a form with text input areas for first name, last name, email address and password with each type set correctly. There is a question with 7 radio options, first 6 are individual options while the last option is for all so is displayed on the row below regardless of the device's screen width. The last part of the form is the submit button which is styled to entice the user to click the big red button when hovered over. The form will not allow the user to submit their data unless the required information has been provided. 
+- The sign up section includes a form with text input areas for first name, last name, email address and password with each type set correctly. There is a question with 7 radio options, first 6 are individual options while the last option is for all so it is displayed on the row below regardless of the device's screen width. The last part of the form is the submit button which is styled to entice the user to click the big red button when it is hovered over. The form will not allow the user to submit their data unless the required information has been provided. 
 
 - The form is styled to be in line with the site styling however all 4 corners are rounded which is intentionally different than the above sections. This is similar to the hero cover text and the confirmation text. 
 
@@ -114,13 +114,13 @@ With increased inflation globally and long working hours, its only normal that a
 
 - The confirmation page is styled similarly to the main page so the experience is pleasant for the site users. 
 
-- The confirmation page includes a nav bar, footer, buttons and background image that are all similar to the main home page. 
+- The confirmation page includes a nav bar, footer, buttons and background image that are all similar in styling to the main home page. 
 
 <img style="display: inline; margin: 25px 20%;" src="readme-files/confirmation-responsive.png" alt="Confirmation Page Responsive Design" width="60%" height="auto" title="Confirmation Page Responsive Design">
 
 ### Social & App Section
 
-- The footer contains 2 divs which provide links for social media and app stores. The divs are displayed in 1 row on larger devices and 1 div per row on smaller devices. 
+- The footer contains 2 divs which provide links for social media and app stores. The divs are displayed on 1 row on larger devices and 1 div per row on smaller devices. 
 
 - The colours are inversed from the above sections, this is visually appealing and provides a clear distinction between the footer and above sections. 
 
@@ -128,12 +128,14 @@ With increased inflation globally and long working hours, its only normal that a
 
 ### Favicon
 
-- The Favicon, the picture in the browser tab (learned from using <a href="https://www.w3schools.com/html/html_favicon.asp" target="_blank" rel="noopener" aria-label="Link to W3Schools' Favicon Guide (opens in new tab)">W3Schools</a>' guide on implemeting this feature).
+- The Favicon, the picture in the browser tab (learned from using <a href="https://www.w3schools.com/html/html_favicon.asp" target="_blank" rel="noopener" aria-label="Link to W3Schools' Favicon Guide (opens in new tab)">W3Schools</a>' guide on implemeting this feature), was added to give the site a profesional feel to the user. 
+
+<img style="display: inline; margin: 25px 30%;" src="readme-files/favicon.png" alt="Life Hax Favicon" width="40%" height="auto" title="Life Hax Favicon">
 
 ## Technologies
 ----
 
-The following technologies were used on this site: 
+The following technologies were used to develop this site: 
 
 - **HTML** - is used to design the website. 
 
@@ -146,8 +148,6 @@ The following technologies were used on this site:
 - **GitPod** - is the platform used to develop the site. 
 
 - **GitHub** - is used to host the website. 
-
-
 
 
 ## Testing
@@ -177,33 +177,33 @@ The following technologies were used on this site:
 
 - The Sign Up section was checked to ensure the following: 
     - The form is displayed with the correct styling. 
-    - Both the first and last name are required and show in the input as standard test. 
-    - The email address field is required and set correctly (i.e. required input requires an "@" and ".")
+    - Both the first and last name are required and show in the input field as standard test. 
+    - The email address field is required and set correctly (i.e. input requires an "@" and ".")
     - The password section is required and hides the entered text. 
     - The what are you most interest in question is displayed correctly and one answer is required. 
     - The all of the above radio answer is displayed below the first 6 options. 
-    - The Sign Up button is displayed in the correct style and that the hover feature is working. It must take the user to the confirmation page when the required data on form as been completed by the user. 
+    - The Sign Up button is displayed in the correct style and that the hover feature is working. It must take the user to the confirmation page when the required data for the form as been completed by the user. 
 
-- The Footer section was tested to ensure all links are working, open in separate page, and that the styling is set correctly for the different background colour, icons and text.
+- The Footer section was tested to ensure that all links are working, open in a separate page, and that the styling is set correctly for the different background colour, icons and text.
 
-- The Confirmation page was tested to ensure the following: 
+- The Confirmation page was tested to ensure the following:  
+    - The nav menu and footer links are working correctly. 
     - The content is displayed in front of the hero image.
     - The styling of the text, background and borders is working. 
-    - The Return to Home Page button is working. 
-    - The nav menu and footer links are working correctly. 
+    - The Return to Home Page button is working.
 
 
 ### Bugs & Solved Issues
 
 - My images and videos were not working when the site was deployed at first as I had used a "/" in front of the file locations. 
 
-- Initially, I uploaded higher quality photos and videos. To improve page performance, as recommended on the lighthouse report, I reduced the file sizes accordingly so that they are an optimal size and format (.webp & .mp4) for the site. I also experimented by adding the videos to the site by embedding a YouTube video using iframes but chose not to go ahead with this.  
+- Initially, I uploaded higher quality photos and videos. To improve the website performance, as recommended on the lighthouse report, I reduced the file sizes accordingly so that they are now an optimal size and in a optimal format (i.e. .webp & .mp4) for the website. I also experimented by adding the videos to the site by embedding a YouTube video using iframes but chose not to go ahead with this.  
 
 <img style="display: inline; margin: 25px 20%;" src="readme-files/size-warning.png" alt="Video Size Warning" width="60%" height="auto" title="Video Size Warning">
 
-- Initially, I had 6 nav bar links and designed for the nav bar menu items to be stacked vertically on smaller devices. This meant the clickable area on mobile devices would have been on the small side and potentially be considered as a bug or design flaw. To improve on this, I removed the link to the Social & app links in the footer and moved the "Top of Page" link into a button that is displayed at the bottom right hand side of the site instead. I then restyled the responsive design for the menu nav bar so that it goes from 4 items in 1 row to 2 items spread over 2 rows for smaller devices. **Previous nav bar shown below.**
+- Initially, I had 6 nav bar links and designed for the nav bar menu items to be stacked vertically on smaller devices. This meant the clickable area on mobile devices would have been on the small side and potentially be considered as a bug or design flaw. To improve on this, I removed the link to the Social & App section in the footer and moved the "Top of Page" link into a button that is displayed at the bottom right hand side of the website instead. I then restyled the responsive design for the menu nav bar so that it goes from 4 items in 1 row to 2 items spread over 2 rows for smaller devices. **Previous nav bar shown below:**
 
-<img style="display: inline; margin: 25px 30%;" src="readme-files/old-nav.png" alt="Previous Nav Bar" width="40%" height="auto" title="Previous Nav Bar">
+<img style="display: inline; margin: 25px 35%;" src="readme-files/old-nav.png" alt="Previous Nav Bar" width="30%" height="auto" title="Previous Nav Bar">
 
 - At first, I created a circular div with a link inside of it that was displayed in the hero text. I consider this as a bug as it gave the impression that by clicking anywhere inside the circle would activate the link but the user actually had to click on the text to follow the link. To rectify this issue, I implemented a button enclosed in a form that sends the user to the desired location. I then implemented this button type on the confirmation page as well. 
 
@@ -228,13 +228,13 @@ The following technologies were used on this site:
 
 - No issues found in final tests on both the main and confirmation pages. CSS Validator logos with links have been added to both pages. 
 
-Home Page:
+<a href="http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fkc-7.github.io%2Flife-hacks-v2%2Findex.html&usermedium=all&vextwarning=&warning=1" target="_blank" rel="noopener" aria-label="Link to CSS Validator for Home Page (opens in new tab)">CSS Home Page</a> Validation:
 
-<a href="http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fkc-7.github.io%2Flife-hacks-v2%2Findex.html&usermedium=all&vextwarning=&warning=1" target="_blank" rel="noopener" aria-label="Link to CSS Validator for Home Page (opens in new tab)"> <img src="assets/images/vcss-blue.webp" alt="Home Page | Valid CSS!"></a>
+<img style="display: inline; margin: 25px 30%;" src="readme-files/css-index.png" alt="CSS Validator for Home Page" width="40%" height="auto" title="CSS Validator for Home Page">
 
-Confirmation Page: 
+<a href="http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fkc-7.github.io%2Flife-hacks-v2%2Fconfirmation.html&usermedium=all&vextwarning=&warning=1" target="_blank" rel="noopener" aria-label="Link to CSS Validator for Home Page (opens in new tab)">CSS Confirmation Page</a> Validation:
 
-<a href="http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fkc-7.github.io%2Flife-hacks-v2%2Fconfirmation.html&usermedium=all&vextwarning=&warning=1" target="_blank" rel="noopener" aria-label="Link to CSS Validator for Home Page (opens in new tab)"> <img src="assets/images/vcss-blue.webp" alt="Confirmation Page | Valid CSS!"></a>
+<img style="display: inline; margin: 25px 30%;" src="readme-files/css-confirmation.png" alt="CSS Validator for Home Page" width="40%" height="auto" title="CSS Validator for Home Page">
 
 
 #### Lighthouse - Performance, Accessibility, Best Practices & SEO
@@ -246,7 +246,7 @@ Confirmation Page:
 - Best Practices: 100%
 - SEO: 100%
 
-Same results for both the main and confirmation page. The performance score can vary, above results achieved while using chrome in incognito mode to disable browser extensions. Time was spent on improving all scores by addressing the highlighted opportunities. 
+The same results were achieved for both the main and confirmation page. The performance score can vary, above results achieved while using the Google Chrome Browser in Incognito mode to disable browser extensions. Time was spent on improving all scores by addressing the highlighted opportunities in the Lighthouse Report. 
 
 <img style="display: inline; margin: 25px 20%;" src="readme-files/lighthouse-index.png" alt="Lighthouse Score for Index Page" width="60%" height="auto" title="Lighthouse Score for Index Page">
 
@@ -257,7 +257,7 @@ Same results for both the main and confirmation page. The performance score can 
 
 - Visual testing was mainly carried out using the Google Chrome Inspect function. I tested all sections of the site on a combination of different screen sizes. 
 
-- Visual testing was also carried out using <a href="https://ui.dev/amiresponsive" target="_blank" rel="noopener" aria-label="Link to Am I Responsive Website (opens in new tab)">Am I Responsive</a>. The responsive images above were taken from this website. The site provides simulations in the following sizes: 
+- Visual testing was also carried out using <a href="https://ui.dev/amiresponsive" target="_blank" rel="noopener" aria-label="Link to Am I Responsive Website (opens in new tab)">Am I Responsive</a>. The responsive image examples shown above were taken from this website. This site provides simulations in the following sizes: 
     - Desktop: 1600 x 992 px - scaled down to scale (0.3181)
     - Laptop: 1280 x 802 px - scaled down to scale (0.277)
     - Tablet: 768 x 1024 px - scaled down to scale (0.219)
@@ -298,13 +298,15 @@ Same results for both the main and confirmation page. The performance score can 
 
 - Currently the sign up form does not send any data or create an account for user, this will need to be set up in future. 
 
-- Implement a Page Not Found Page with custom design in line with the rest of the site.
+- Implement a "404 Page Not Found" Page with custom design in line with the rest of the site.
 
-- Develop application for site and share via the Google and Apple App Stores. Updated links in footer. 
+- Develop a mobile application for site and share via the Google and Apple App Stores. Updated links in footer. 
 
 - Create social media pages for the site and update links in footer. 
 
-- Create contact email address for the site, use a custom web domain etc. 
+- Create contact email address for the site, update contact info on confirmation page. 
+
+- Set website up on custom web domain.
 
 - Add additional life hack examples with additional images and custom videos to draw in more potential users. 
 
@@ -323,7 +325,7 @@ Same results for both the main and confirmation page. The performance score can 
 
 - For version control, I regularly updated my work to GitHub by entering the below commands into the terminal: 
     - *git add .*
-    - *git commit -m "Update message  here"*
+    - *git commit -m "Update message here"*
     - *git push*
 
 ### GitHub
@@ -344,11 +346,9 @@ Same results for both the main and confirmation page. The performance score can 
 
 - This site was developed using information learned from the <a href="https://codeinstitute.net/" target="_blank" rel="noopener" aria-label="Link to the Code Institute (opens in new tab)">Code Institute</a> alongside other online resources such as <a href="https://www.w3schools.com/html/html_favicon.asp" target="_blank" rel="noopener" aria-label="Link to W3Schools (opens in new tab)">W3Schools</a>. 
 
-- The Code Institute Gitpod Full Template was used as the basis for the project. The repo is available on their <a href="https://github.com/Code-Institute-Org/gitpod-full-template" target="_blank" rel="noopener" aria-label="Link to The Code Institute Gitpod Full Template (opens in new tab)">GitHub Account here</a>. 
+- The Code Institute's Gitpod Full Template was used as the basis for the project. The repository is available on their <a href="https://github.com/Code-Institute-Org/gitpod-full-template" target="_blank" rel="noopener" aria-label="Link to The Code Institute Gitpod Full Template (opens in new tab)">GitHub Account</a>. 
 
-
-
-- The code used to animate the hero page was learned from the <a href="https://codeinstitute.net/" target="_blank" rel="noopener" aria-label="Link to the Code Institute (opens in new tab)">Code Institute's</a> Love Running Project although the values are different to suit the Life Hax website. 
+- The code used to animate the hero image zoom effect was learned from the <a href="https://github.com/Code-Institute-Org/love-running-2.0" target="_blank" rel="noopener" aria-label="Link to the Code Institute's Love Running Repository on GitHub (opens in new tab)">Code Institute's Love Running Project</a>. The values were modified to suit the Life Hax website. 
 
 - I learned how to implement the Favicon, the picture in the browser tab, from using <a href="https://www.w3schools.com/html/html_favicon.asp" target="_blank" rel="noopener" aria-label="Link to W3Schools' Favicon Guide (opens in new tab)">W3Schools</a> guide on implementing this feature.
 
@@ -356,7 +356,7 @@ Same results for both the main and confirmation page. The performance score can 
 
 - The social links, app download sections and the CSS validator logo all contain links to third party websites. 
 
-- Font added using <a href="https://fonts.google.com/" target="_blank" rel="noopener" aria-label="Link to Google Fonts (opens in new tab)">Google Fonts</a>.
+- Fonts added using <a href="https://fonts.google.com/" target="_blank" rel="noopener" aria-label="Link to Google Fonts (opens in new tab)">Google Fonts</a>.
 
 - Icons added using <a href="https://fonts.google.com/" target="_blank" rel="noopener" aria-label="Link to Font Awesome | Free V5 Icons (opens in new tab)">Font Awesome | Free V5 Icons</a>.
 
@@ -364,7 +364,7 @@ Same results for both the main and confirmation page. The performance score can 
 
 ### Media
 
-- Both of the videos on the homepage were sourced from <a href="https://www.rawpixel.com/public-domain" target="_blank" rel="noopener" aria-label="Link to Pexel's Home Page (opens in new tab)">Pexel</a> and are both are available for use in the Public Domain. Both video give credit to the content uploader in the index.html file. 
+- Both of the videos on the homepage were sourced from <a href="https://www.rawpixel.com/public-domain" target="_blank" rel="noopener" aria-label="Link to Pexel's Home Page (opens in new tab)">Pexel</a>. Both are available for use in the Public Domain. Both videos have a HTML comment above them to give credit to the content uploaders, "Tima Miroshnichenko" & "cottonbro", in the index.html file. 
 
 - All of the images were sourced from <a href="https://www.rawpixel.com/public-domain" target="_blank" rel="noopener" aria-label="Link to RawPixel's Public Domain Content (opens in new tab)">RawPixel</a> and are available for use in the Public Domain.
 
