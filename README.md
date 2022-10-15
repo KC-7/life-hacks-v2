@@ -1,13 +1,14 @@
 <img style="display: inline;" src="readme-files/logo-header-narrow.png " alt="Life Hax Logo" width="100%" height="auto" title="Life Hax Logo">
 
-
 # Life Hax Website
 
 This website is for an online life hacks company called Life Hax. Life Hax are currently offering free sign up to new members. Membership gives you access to their mailing list and mobile app. All users will receive access to content designed to save them time and money. This site is mainly targeted at male and female users between the ages of 18 and 65 years old. Once the website has built up a user base, they will add advertisements to generate site revenue. Existing members will remain ad free however new members who do not wish to see ads will need to sign up for a paid membership. The site will aim to provide tailored content for users in future based on their interests as the site grows. 
 
-The site is hoping to attract B2C customers and has been designed in a simple manner that encourages the user to sign up. The website is easy to navigate by using a nav bar and floating top of screen button alongside the links and buttons within the website. The colours and styling were applied in a consitent manner to the site so that is visualy appealing and uniform.
-
 <img style="display: inline; margin: 25px 20%;" src="readme-files/home-page.png" alt="View of Home Page" width="60%" height="auto" title="View of Home Page">
+
+The site is intending to attract B2C customers and has been designed in a simple and unique manner that encourages the user to sign up. The website is easy to navigate by using a nav bar and floating top of screen button alongside the links and buttons within the website. The colours and styling were applied in a consitent manner to the site so that is visualy appealing and uniform. Potential customers in our target audience where interviewed during the planning stages to find out information on what would make a good experience and encourage them to sign up. Competiting sites were reviewed to find out what works and what can be improved on. 
+
+Features to implement on the site were reviewed by ranking their importance against their feasibility to implement, this allowed me to focus on what would be most important for the end user and the success of the site. 
 
 
 ## Features
@@ -81,7 +82,9 @@ The site is hoping to attract B2C customers and has been designed in a simple ma
 
 - The text input area is styled to adjust in size on smaller devices.
 
-<img style="display: inline; margin: 25px 20%;" src="readme-files/signup-responsive.png" alt="Sign Up Form Responsive Design" width="60%" height="auto" title="Sign Up Form Responsive Design">
+- The radio answers are designed to be distirbuted evenly onto multiple rows on smaller devices. 
+
+<img style="display: inline; margin: 25px 20%;" src="readme-files/signup-responsive-updated.png" alt="Sign Up Form Responsive Design" width="60%" height="auto" title="Sign Up Form Responsive Design">
 
 ### Confirmation Page
 
@@ -99,7 +102,7 @@ The site is hoping to attract B2C customers and has been designed in a simple ma
 
 - The colours are inversed from the above sections, this is visually appealing and provides a clear distinction between the footer and above sections. 
 
-<img style="display: inline; margin: 25px 20%;" src="readme-files/footer-responsive.png" alt="Footer Responsive Design" width="60%" height="auto" title="Footer Responsive Design">
+<img style="display: inline; margin: 25px 20%;" src="readme-files/footer-responsive-updated.png" alt="Footer Responsive Design" width="60%" height="auto" title="Footer Responsive Design">
 
 ## Testing
 ----
@@ -189,11 +192,25 @@ Same results for both the main and confirmation page. The performance score can 
 ## Deployment
 ----
 
+### GitPod
+
+- I made adjustments to the site using GitPod. I ran a local sever each time I was viewing & editing it by typing the below into the terminal: 
+    - *python3 -m http.server*
+
+- I regularly update my work by entering the below commands into the terminal: 
+    - *git add .*
+    - *git commit -m "Update message  here"*
+    - *git push*
+
 ### GitHub
 
-- The site was deployed to my <a href="https://github.com/KC-7/life-hacks-v2" target="_blank" rel="noopener" aria-label="Link to my GitHub Repo (opens in new tab)">GitHub</a>.
+- The site was deployed to <a href="https://github.com/KC-7/life-hacks-v2" target="_blank" rel="noopener" aria-label="Link to my GitHub Repo (opens in new tab)">GitHub</a> pages. This was achieved by XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
 
-- My username on <a href="https://github.com/KC-7/" target="_blank" rel="noopener" aria-label="Link to my GitHub account (opens in new tab)">GitHub is KC-7</a>.
+- My username on GitHub is <a href="https://github.com/KC-7/" target="_blank" rel="noopener" aria-label="Link to my GitHub account (opens in new tab)">KC-7</a>.
+
+- URL Links to the site below: 
+    - Home Page: https://kc-7.github.io/life-hacks-v2/index.html
+    - Confirmation Page: https://kc-7.github.io/life-hacks-v2/confirmation.html
 
 
 ## Credits
@@ -205,7 +222,9 @@ Same results for both the main and confirmation page. The performance score can 
 
 - The code used to animate the hero page was learned from the <a href="https://codeinstitute.net/" target="_blank" rel="noopener" aria-label="Link to the Code Institute (opens in new tab)">Code Institute's</a> Love Running Project although the values are different to suit the Life Hax website. 
 
-- I learned how to implement the Favicon, the picture in the browser tab, from using <a href="https://www.w3schools.com/html/html_favicon.asp" target="_blank" rel="noopener" aria-label="Link to W3Schools (opens in new tab)">W3Schools</a>.
+- I learned how to implement the Favicon, the picture in the browser tab, from using <a href="https://www.w3schools.com/html/html_favicon.asp" target="_blank" rel="noopener" aria-label="Link to W3Schools' Favicon Guide (opens in new tab)">W3Schools</a> guide on impleneting this feature.
+
+- I learned how to implement the smooth scroll function, the effect that scrolls down to the area being navigated to instead of jumping to it, from using <a href="https://www.w3schools.com/howto/howto_css_smooth_scroll.asp" target="_blank" rel="noopener" aria-label="Link to W3Schools' Smooth Scroll Guide (opens in new tab)">W3Schools</a> guide on impleneting this feature.
 
 - The social links, app download sections and the CSS validator logo all contain links to third party websites. 
 
