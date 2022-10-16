@@ -134,7 +134,7 @@ hr.bold {
 /* The validator displays the CSS validation link, it is displayed at the bottom left of each of the divs it is located within. Reduced opacity. */
 .validator {
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.7;
     bottom: 10px;
     float: left;
     left: 10px;

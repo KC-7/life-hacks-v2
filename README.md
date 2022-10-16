@@ -137,9 +137,9 @@ With increased inflation globally and long working hours, its only normal that a
 
 The following technologies were used to develop this site: 
 
-- **HTML** - is used to design the website. 
+- **HTML** - is used to structure the website. 
 
-- **CSS** - is used to stlye the website. 
+- **CSS** - is used to style the website. 
 
 - **Google Fonts** - is used to import additional fonts. 
 
